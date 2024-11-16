@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/fowl-evil.dir/src/main.cc.o" -o /home/leaf/fowl-evil/bin/fowl-evil  /usr/lib/x86_64-linux-gnu/libSDL2.so -lSDL2_gfx -lSDL2_image -lSDL2_mixer -lSDL2_ttf /usr/lib/x86_64-linux-gnu/libSDL2_gfx.so 
