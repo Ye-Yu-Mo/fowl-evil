@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>fowl-evil: /home/leaf/fowl-evil/third/logs/sink.hpp 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">fowl-evil<span id="projectnumber">&#160;dev 0.1</span>
+   </div>
+   <div id="projectbrief">一个基于C++ SDL的二维平面射击游戏</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('sink_8hpp.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#namespaces">命名空间</a>  </div>
+  <div class="headertitle"><div class="title">sink.hpp 文件参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>日志落地模块的实现  
+<a href="#details">更多...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="util_8hpp_source.html">util.hpp</a>&quot;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;cassert&gt;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+sink.hpp 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="sink_8hpp__incl.png" border="0" usemap="#a_2home_2leaf_2fowl-evil_2third_2logs_2sink_8hpp" alt=""/></div>
+<map name="a_2home_2leaf_2fowl-evil_2third_2logs_2sink_8hpp" id="a_2home_2leaf_2fowl-evil_2third_2logs_2sink_8hpp">
+<area shape="rect" title="日志落地模块的实现" alt="" coords="543,5,697,45"/>
+<area shape="rect" href="util_8hpp.html" title="实用工具类的实现" alt="" coords="251,93,322,119"/>
+<area shape="poly" title=" " alt="" coords="544,47,336,96,335,91,543,42"/>
+<area shape="rect" title=" " alt="" coords="401,167,474,192"/>
+<area shape="poly" title=" " alt="" coords="544,34,511,42,479,54,450,71,426,95,420,108,420,123,427,153,422,155,414,124,415,107,422,92,446,67,477,49,510,37,542,29"/>
+<area shape="rect" title=" " alt="" coords="436,93,513,119"/>
+<area shape="poly" title=" " alt="" coords="586,48,509,89,507,84,584,43"/>
+<area shape="rect" title=" " alt="" coords="537,93,607,119"/>
+<area shape="poly" title=" " alt="" coords="611,47,589,83,584,80,606,44"/>
+<area shape="rect" title=" " alt="" coords="631,93,705,119"/>
+<area shape="poly" title=" " alt="" coords="634,44,656,80,651,83,629,47"/>
+<area shape="rect" title=" " alt="" coords="729,93,796,119"/>
+<area shape="poly" title=" " alt="" coords="655,43,731,84,729,89,653,48"/>
+<area shape="rect" title=" " alt="" coords="821,93,883,119"/>
+<area shape="poly" title=" " alt="" coords="676,43,808,87,807,92,675,48"/>
+<area shape="rect" title=" " alt="" coords="907,93,967,119"/>
+<area shape="poly" title=" " alt="" coords="698,42,894,90,893,95,696,47"/>
+<area shape="rect" title=" " alt="" coords="5,167,85,192"/>
+<area shape="poly" title=" " alt="" coords="252,120,98,165,97,160,250,115"/>
+<area shape="rect" title=" " alt="" coords="109,167,168,192"/>
+<area shape="poly" title=" " alt="" coords="264,121,176,163,174,158,262,116"/>
+<area shape="rect" title=" " alt="" coords="192,167,277,192"/>
+<area shape="poly" title=" " alt="" coords="280,121,253,157,249,154,276,117"/>
+<area shape="poly" title=" " alt="" coords="312,116,401,158,399,163,310,121"/>
+<area shape="rect" title=" " alt="" coords="301,167,376,192"/>
+<area shape="poly" title=" " alt="" coords="297,117,324,154,320,157,293,121"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+此图展示该文件直接或间接的被哪些文件引用了:</div>
+<div class="dyncontent">
+<div class="center"><img src="sink_8hpp__dep__incl.png" border="0" usemap="#a_2home_2leaf_2fowl-evil_2third_2logs_2sink_8hppdep" alt=""/></div>
+<map name="a_2home_2leaf_2fowl-evil_2third_2logs_2sink_8hppdep" id="a_2home_2leaf_2fowl-evil_2third_2logs_2sink_8hppdep">
+<area shape="rect" title="日志落地模块的实现" alt="" coords="8,5,161,45"/>
+<area shape="rect" href="third_2logs_2logger_8hpp.html" title="日志器模块的实现" alt="" coords="5,93,164,133"/>
+<area shape="poly" title=" " alt="" coords="87,59,87,93,82,93,82,59"/>
+<area shape="rect" href="_xulog_8h.html" title="全局日志接口和宏定义" alt="" coords="8,181,161,221"/>
+<area shape="poly" title=" " alt="" coords="87,147,87,181,82,181,82,147"/>
+<area shape="rect" href="include_2logger_8hpp.html" title="异步日志器初始化" alt="" coords="8,269,161,309"/>
+<area shape="poly" title=" " alt="" coords="87,235,87,269,82,269,82,235"/>
+<area shape="rect" href="atlas_8hpp.html" title="图集类 绘制图片素材时 从 图片 &#45;&gt; 内存结构 SDL_Surface 借助硬件加速进行绘图 SDL_Surface &#45;&gt; 显存结构 &#45;&gt; 借助 Renderer 进行渲染显式到窗口" alt="" coords="8,357,161,397"/>
+<area shape="poly" title=" " alt="" coords="87,323,87,357,82,357,82,323"/>
+</map>
+</div>
+</div>
+<p><a href="sink_8hpp_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xulog_1_1_log_sink.html">Xulog::LogSink</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">抽象日志落地基类  <a href="class_xulog_1_1_log_sink.html#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xulog_1_1_stdout_sink.html">Xulog::StdoutSink</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">标准输出日志落地实现  <a href="class_xulog_1_1_stdout_sink.html#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xulog_1_1_file_sink.html">Xulog::FileSink</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">文件日志落地实现  <a href="class_xulog_1_1_file_sink.html#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xulog_1_1_roll_sink_by_size.html">Xulog::RollSinkBySize</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">基于文件大小的滚动文件日志落地实现  <a href="class_xulog_1_1_roll_sink_by_size.html#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_xulog_1_1_sink_factory.html">Xulog::SinkFactory</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">日志落地对象工厂类  <a href="class_xulog_1_1_sink_factory.html#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+命名空间</h2></td></tr>
+<tr class="memitem:namespace_xulog" id="r_namespace_xulog"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_xulog.html">Xulog</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>日志落地模块的实现 </p>
+<p>本文件实现了日志落地的相关类，包括抽象基类 LogSink 及其派生类 StdoutSink、FileSink 和 RollSinkBySize。 使用工厂模式进行日志输出对象的创建与管理。 </p>
+</div></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_9d31fd1756320a7050772e61b4875b9e.html">fowl-evil</a></li><li class="navelem"><a class="el" href="dir_8dd456f86f45c96dcfb5589a67df3559.html">third</a></li><li class="navelem"><a class="el" href="dir_fe1664a62dc6f7c9dffbf7cd262a7e6b.html">logs</a></li><li class="navelem"><a class="el" href="sink_8hpp.html">sink.hpp</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

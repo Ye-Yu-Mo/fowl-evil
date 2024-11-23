@@ -1,0 +1,5 @@
+<map id="Vector2::length" name="Vector2::length">
+<area shape="rect" id="Node000001" title="计算向量的长度。" alt="" coords="197,5,317,31"/>
+<area shape="rect" id="Node000002" href="$class_vector2.html#abf921b268aff0012ec9b435fc35ad66a" title="归一化向量。" alt="" coords="5,5,149,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,21,150,21,150,15,184,15"/>
+</map>

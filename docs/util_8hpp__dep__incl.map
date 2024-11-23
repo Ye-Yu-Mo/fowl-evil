@@ -1,0 +1,24 @@
+<map id="/home/leaf/fowl&#45;evil/third/logs/util.hpp" name="/home/leaf/fowl&#45;evil/third/logs/util.hpp">
+<area shape="rect" id="Node000001" title="实用工具类的实现" alt="" coords="188,5,341,45"/>
+<area shape="rect" id="Node000002" href="$buffer_8hpp.html" title="实现异步日志缓冲区" alt="" coords="8,93,164,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,54,126,96,124,91,212,49"/>
+<area shape="rect" id="Node000004" href="$third_2logs_2logger_8hpp.html" title="日志器模块的实现" alt="" coords="181,269,340,309"/>
+<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="246,58,230,94,222,129,220,157,222,185,230,221,239,246,251,268,246,270,234,248,225,222,217,186,214,157,217,128,225,92,241,56"/>
+<area shape="rect" id="Node000008" href="$message_8hpp.html" title="日志消息类的实现" alt="" coords="239,93,418,133"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="289,55,317,92,312,95,285,58"/>
+<area shape="rect" id="Node000010" href="$sink_8hpp.html" title="日志落地模块的实现" alt="" coords="427,181,580,221"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="350,47,392,66,432,91,453,112,472,136,497,180,492,183,467,139,449,116,428,95,390,71,348,52"/>
+<area shape="rect" id="Node000003" href="$looper_8hpp.html" title="实现异步工作器" alt="" coords="5,181,164,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="88,147,88,181,82,181,83,147"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="137,225,223,267,221,272,134,230"/>
+<area shape="rect" id="Node000005" href="$_xulog_8h.html" title="全局日志接口和宏定义" alt="" coords="184,357,337,397"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="263,323,263,357,258,357,258,323"/>
+<area shape="rect" id="Node000006" href="$include_2logger_8hpp.html" title="异步日志器初始化" alt="" coords="184,445,337,485"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="263,411,263,445,258,445,258,411"/>
+<area shape="rect" id="Node000007" href="$atlas_8hpp.html" title="图集类 绘制图片素材时 从 图片 &#45;&gt; 内存结构 SDL_Surface 借助硬件加速进行绘图 SDL_Surface &#45;&gt; 显存结构 &#45;&gt; 借助 Renderer 进行渲染显式到窗口" alt="" coords="184,533,337,573"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="263,499,263,533,258,533,258,499"/>
+<area shape="rect" id="Node000009" href="$format_8hpp.html" title="日志格式化器类的定义" alt="" coords="239,181,402,221"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="328,147,325,181,320,181,323,147"/>
+<area shape="poly" id="edge10_Node000009_Node000004" title=" " alt="" coords="302,234,276,271,272,268,297,231"/>
+<area shape="poly" id="edge12_Node000010_Node000004" title=" " alt="" coords="438,228,315,272,313,267,436,223"/>
+</map>

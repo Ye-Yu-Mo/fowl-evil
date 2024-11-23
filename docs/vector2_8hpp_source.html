@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>fowl-evil: /home/leaf/fowl-evil/include/vector2.hpp 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">fowl-evil<span id="projectnumber">&#160;dev 0.1</span>
+   </div>
+   <div id="projectbrief">一个基于C++ SDL的二维平面射击游戏</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('vector2_8hpp_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">vector2.hpp</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="vector2_8hpp.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;cmath&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="class_vector2.html">   10</a></span><span class="keyword">class </span><a class="code hl_class" href="class_vector2.html">Vector2</a></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="class_vector2.html#af1de25cf0004820d5e6db855c91bc4ad">   14</a></span>    <a class="code hl_function" href="class_vector2.html#af1de25cf0004820d5e6db855c91bc4ad">Vector2</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_vector2.html#a6245eaf32b216831836acd9b01ebff5e">   16</a></span>    <a class="code hl_function" href="class_vector2.html#a6245eaf32b216831836acd9b01ebff5e">~Vector2</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="class_vector2.html#a68d39410cd1087eeb0b4d8d2cb49cd83">   21</a></span>    <a class="code hl_function" href="class_vector2.html#a68d39410cd1087eeb0b4d8d2cb49cd83">Vector2</a>(<span class="keywordtype">float</span> idx_x, <span class="keywordtype">float</span> idx_y) : <a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a>(idx_x), <a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a>(idx_y) {}</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="}">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_vector2.html#a25001efd8206dc457c7990a0cef9c946">   26</a></span>    <a class="code hl_class" href="class_vector2.html">Vector2</a> <a class="code hl_function" href="class_vector2.html#a25001efd8206dc457c7990a0cef9c946">operator+</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vector2.html">Vector2</a> &amp;vec)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_vector2.html#af1de25cf0004820d5e6db855c91bc4ad">Vector2</a>(<a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a> + vec.<a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a>, <a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a> + vec.<a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a>);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    }</div>
+</div>
+<div class="foldopen" id="foldopen00033" data-start="{" data-end="}">
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_vector2.html#a9b35d99b3a2c6d2a44564b5e6b0a35a5">   33</a></span>    <a class="code hl_class" href="class_vector2.html">Vector2</a> <a class="code hl_function" href="class_vector2.html#a9b35d99b3a2c6d2a44564b5e6b0a35a5">operator-</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vector2.html">Vector2</a> &amp;vec)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_vector2.html#af1de25cf0004820d5e6db855c91bc4ad">Vector2</a>(<a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a> - vec.<a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a>, <a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a> - vec.<a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a>);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    }</div>
+</div>
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_vector2.html#a79d18d7120f0f7f4d8c4c9ec5d442bef">   40</a></span>    <a class="code hl_class" href="class_vector2.html">Vector2</a> <a class="code hl_function" href="class_vector2.html#a79d18d7120f0f7f4d8c4c9ec5d442bef">operator*</a>(<span class="keywordtype">float</span> val)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_vector2.html#af1de25cf0004820d5e6db855c91bc4ad">Vector2</a>(<a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a> * val, <a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a> * val);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    }</div>
+</div>
+<div class="foldopen" id="foldopen00047" data-start="{" data-end="}">
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_vector2.html#a1252399ad6586ce01e86214f319dff7d">   47</a></span>    <a class="code hl_class" href="class_vector2.html">Vector2</a> <a class="code hl_function" href="class_vector2.html#a1252399ad6586ce01e86214f319dff7d">operator/</a>(<span class="keywordtype">float</span> val)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_vector2.html#af1de25cf0004820d5e6db855c91bc4ad">Vector2</a>(<a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a> / val, <a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a> / val);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    }</div>
+</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="foldopen" id="foldopen00055" data-start="{" data-end="}">
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="class_vector2.html#a91e01b27060ec46604292aca3c3e316a">   55</a></span>    <span class="keywordtype">float</span> <a class="code hl_function" href="class_vector2.html#a91e01b27060ec46604292aca3c3e316a">operator*</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vector2.html">Vector2</a> &amp;vec)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a> * vec.<a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a> + <a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a> * vec.<a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    }</div>
+</div>
+<div class="foldopen" id="foldopen00061" data-start="{" data-end="}">
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="class_vector2.html#a108ab44fd77ca4dae9887f32e2992d44">   61</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vector2.html#a108ab44fd77ca4dae9887f32e2992d44">operator+=</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vector2.html">Vector2</a> &amp;vec)</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    {</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a> += vec.<a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a>, <a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a> += vec.<a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    }</div>
+</div>
+<div class="foldopen" id="foldopen00067" data-start="{" data-end="}">
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="class_vector2.html#aec5a7380fec38bfbbdc24548d375c926">   67</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vector2.html#aec5a7380fec38bfbbdc24548d375c926">operator-=</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vector2.html">Vector2</a> &amp;vec)</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    {</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a> -= vec.<a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a>, <a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a> -= vec.<a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    }</div>
+</div>
+<div class="foldopen" id="foldopen00073" data-start="{" data-end="}">
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="class_vector2.html#ac29f642fff0bfabf0a34135410fd833b">   73</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vector2.html#ac29f642fff0bfabf0a34135410fd833b">operator*=</a>(<span class="keywordtype">float</span> val)</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    {</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        <a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a> *= val, <a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a> *= val;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    }</div>
+</div>
+<div class="foldopen" id="foldopen00079" data-start="{" data-end="}">
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="class_vector2.html#ae5115566257d444ef611be43a041261a">   79</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vector2.html#ae5115566257d444ef611be43a041261a">operator/=</a>(<span class="keywordtype">float</span> val)</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    {</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        <a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a> /= val, <a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a> /= val;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    }</div>
+</div>
+<div class="foldopen" id="foldopen00085" data-start="{" data-end="}">
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="class_vector2.html#ab4f5d2fefb24657715d6b02cb8441a1e">   85</a></span>    <span class="keywordtype">float</span> <a class="code hl_function" href="class_vector2.html#ab4f5d2fefb24657715d6b02cb8441a1e">length</a>()</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    {</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        <span class="keywordflow">return</span> sqrt(<a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a> * <a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a> + <a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a> * <a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a>);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    }</div>
+</div>
+<div class="foldopen" id="foldopen00091" data-start="{" data-end="}">
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="class_vector2.html#abf921b268aff0012ec9b435fc35ad66a">   91</a></span>    <a class="code hl_class" href="class_vector2.html">Vector2</a> <a class="code hl_function" href="class_vector2.html#abf921b268aff0012ec9b435fc35ad66a">normalize</a>()</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    {</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        <span class="keywordtype">float</span> len = <a class="code hl_function" href="class_vector2.html#ab4f5d2fefb24657715d6b02cb8441a1e">length</a>();</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        <span class="keywordflow">if</span> (len == 0)</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="class_vector2.html#af1de25cf0004820d5e6db855c91bc4ad">Vector2</a>(0, 0);</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="class_vector2.html#af1de25cf0004820d5e6db855c91bc4ad">Vector2</a>(<a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a> / len, <a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a> / len);</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    }</div>
+</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">  100</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a> = 0; </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">  101</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a> = 0; </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>};</div>
+</div>
+<div class="ttc" id="aclass_vector2_html"><div class="ttname"><a href="class_vector2.html">Vector2</a></div><div class="ttdoc">二维向量类</div><div class="ttdef"><b>Definition</b> vector2.hpp:11</div></div>
+<div class="ttc" id="aclass_vector2_html_a046bb8d17a876acc49415128dc0502f2"><div class="ttname"><a href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">Vector2::x</a></div><div class="ttdeci">float x</div><div class="ttdoc">向量的 x 分量</div><div class="ttdef"><b>Definition</b> vector2.hpp:100</div></div>
+<div class="ttc" id="aclass_vector2_html_a0e07bad05f01ed811b909a2eef97f9e2"><div class="ttname"><a href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">Vector2::y</a></div><div class="ttdeci">float y</div><div class="ttdoc">向量的 y 分量</div><div class="ttdef"><b>Definition</b> vector2.hpp:101</div></div>
+<div class="ttc" id="aclass_vector2_html_a108ab44fd77ca4dae9887f32e2992d44"><div class="ttname"><a href="class_vector2.html#a108ab44fd77ca4dae9887f32e2992d44">Vector2::operator+=</a></div><div class="ttdeci">void operator+=(const Vector2 &amp;vec)</div><div class="ttdoc">向量加法赋值运算符重载</div><div class="ttdef"><b>Definition</b> vector2.hpp:61</div></div>
+<div class="ttc" id="aclass_vector2_html_a1252399ad6586ce01e86214f319dff7d"><div class="ttname"><a href="class_vector2.html#a1252399ad6586ce01e86214f319dff7d">Vector2::operator/</a></div><div class="ttdeci">Vector2 operator/(float val) const</div><div class="ttdoc">向量除标量</div><div class="ttdef"><b>Definition</b> vector2.hpp:47</div></div>
+<div class="ttc" id="aclass_vector2_html_a25001efd8206dc457c7990a0cef9c946"><div class="ttname"><a href="class_vector2.html#a25001efd8206dc457c7990a0cef9c946">Vector2::operator+</a></div><div class="ttdeci">Vector2 operator+(const Vector2 &amp;vec) const</div><div class="ttdoc">向量加法</div><div class="ttdef"><b>Definition</b> vector2.hpp:26</div></div>
+<div class="ttc" id="aclass_vector2_html_a6245eaf32b216831836acd9b01ebff5e"><div class="ttname"><a href="class_vector2.html#a6245eaf32b216831836acd9b01ebff5e">Vector2::~Vector2</a></div><div class="ttdeci">~Vector2()=default</div><div class="ttdoc">默认析构</div></div>
+<div class="ttc" id="aclass_vector2_html_a68d39410cd1087eeb0b4d8d2cb49cd83"><div class="ttname"><a href="class_vector2.html#a68d39410cd1087eeb0b4d8d2cb49cd83">Vector2::Vector2</a></div><div class="ttdeci">Vector2(float idx_x, float idx_y)</div><div class="ttdoc">构造函数</div><div class="ttdef"><b>Definition</b> vector2.hpp:21</div></div>
+<div class="ttc" id="aclass_vector2_html_a79d18d7120f0f7f4d8c4c9ec5d442bef"><div class="ttname"><a href="class_vector2.html#a79d18d7120f0f7f4d8c4c9ec5d442bef">Vector2::operator*</a></div><div class="ttdeci">Vector2 operator*(float val) const</div><div class="ttdoc">向量乘标量</div><div class="ttdef"><b>Definition</b> vector2.hpp:40</div></div>
+<div class="ttc" id="aclass_vector2_html_a91e01b27060ec46604292aca3c3e316a"><div class="ttname"><a href="class_vector2.html#a91e01b27060ec46604292aca3c3e316a">Vector2::operator*</a></div><div class="ttdeci">float operator*(const Vector2 &amp;vec) const</div><div class="ttdoc">向量内积</div><div class="ttdef"><b>Definition</b> vector2.hpp:55</div></div>
+<div class="ttc" id="aclass_vector2_html_a9b35d99b3a2c6d2a44564b5e6b0a35a5"><div class="ttname"><a href="class_vector2.html#a9b35d99b3a2c6d2a44564b5e6b0a35a5">Vector2::operator-</a></div><div class="ttdeci">Vector2 operator-(const Vector2 &amp;vec) const</div><div class="ttdoc">向量剑法</div><div class="ttdef"><b>Definition</b> vector2.hpp:33</div></div>
+<div class="ttc" id="aclass_vector2_html_ab4f5d2fefb24657715d6b02cb8441a1e"><div class="ttname"><a href="class_vector2.html#ab4f5d2fefb24657715d6b02cb8441a1e">Vector2::length</a></div><div class="ttdeci">float length()</div><div class="ttdoc">计算向量的长度。</div><div class="ttdef"><b>Definition</b> vector2.hpp:85</div></div>
+<div class="ttc" id="aclass_vector2_html_abf921b268aff0012ec9b435fc35ad66a"><div class="ttname"><a href="class_vector2.html#abf921b268aff0012ec9b435fc35ad66a">Vector2::normalize</a></div><div class="ttdeci">Vector2 normalize()</div><div class="ttdoc">归一化向量。</div><div class="ttdef"><b>Definition</b> vector2.hpp:91</div></div>
+<div class="ttc" id="aclass_vector2_html_ac29f642fff0bfabf0a34135410fd833b"><div class="ttname"><a href="class_vector2.html#ac29f642fff0bfabf0a34135410fd833b">Vector2::operator*=</a></div><div class="ttdeci">void operator*=(float val)</div><div class="ttdoc">向量与标量的乘法赋值运算符重载。</div><div class="ttdef"><b>Definition</b> vector2.hpp:73</div></div>
+<div class="ttc" id="aclass_vector2_html_ae5115566257d444ef611be43a041261a"><div class="ttname"><a href="class_vector2.html#ae5115566257d444ef611be43a041261a">Vector2::operator/=</a></div><div class="ttdeci">void operator/=(float val)</div><div class="ttdoc">向量与标量的除法赋值运算符重载。</div><div class="ttdef"><b>Definition</b> vector2.hpp:79</div></div>
+<div class="ttc" id="aclass_vector2_html_aec5a7380fec38bfbbdc24548d375c926"><div class="ttname"><a href="class_vector2.html#aec5a7380fec38bfbbdc24548d375c926">Vector2::operator-=</a></div><div class="ttdeci">void operator-=(const Vector2 &amp;vec)</div><div class="ttdoc">向量减法赋值运算符重载。</div><div class="ttdef"><b>Definition</b> vector2.hpp:67</div></div>
+<div class="ttc" id="aclass_vector2_html_af1de25cf0004820d5e6db855c91bc4ad"><div class="ttname"><a href="class_vector2.html#af1de25cf0004820d5e6db855c91bc4ad">Vector2::Vector2</a></div><div class="ttdeci">Vector2()=default</div><div class="ttdoc">默认构造</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_9d31fd1756320a7050772e61b4875b9e.html">fowl-evil</a></li><li class="navelem"><a class="el" href="dir_f6958ae00c69e10d3fe07c3606897e8f.html">include</a></li><li class="navelem"><a class="el" href="vector2_8hpp.html">vector2.hpp</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

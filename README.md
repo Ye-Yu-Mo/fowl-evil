@@ -1,2 +1,3 @@
 # fowl-evil
-A C++ game based on SDL
+
+一个基于C++ SDL的二维平面射击游戏

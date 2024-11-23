@@ -1,0 +1,11 @@
+<map id="/home/leaf/fowl&#45;evil/third/logs/sink.hpp" name="/home/leaf/fowl&#45;evil/third/logs/sink.hpp">
+<area shape="rect" id="Node000001" title="日志落地模块的实现" alt="" coords="8,5,161,45"/>
+<area shape="rect" id="Node000002" href="$third_2logs_2logger_8hpp.html" title="日志器模块的实现" alt="" coords="5,93,164,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,59,87,93,82,93,82,59"/>
+<area shape="rect" id="Node000003" href="$_xulog_8h.html" title="全局日志接口和宏定义" alt="" coords="8,181,161,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,147,87,181,82,181,82,147"/>
+<area shape="rect" id="Node000004" href="$include_2logger_8hpp.html" title="异步日志器初始化" alt="" coords="8,269,161,309"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,235,87,269,82,269,82,235"/>
+<area shape="rect" id="Node000005" href="$atlas_8hpp.html" title="图集类 绘制图片素材时 从 图片 &#45;&gt; 内存结构 SDL_Surface 借助硬件加速进行绘图 SDL_Surface &#45;&gt; 显存结构 &#45;&gt; 借助 Renderer 进行渲染显式到窗口" alt="" coords="8,357,161,397"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,323,87,357,82,357,82,323"/>
+</map>
