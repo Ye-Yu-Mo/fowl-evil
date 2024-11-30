@@ -8,7 +8,8 @@ var searchData=
   ['getmsg_5',['getMsg',['../class_xulog_1_1_logger.html#a874b751392ef54e8b003488a06756e36',1,'Xulog::Logger']]],
   ['getname_6',['getName',['../class_xulog_1_1_logger.html#a297fd14f436a4343b32c941b5ae7a7b5',1,'Xulog::Logger']]],
   ['getpattern_7',['getPattern',['../class_xulog_1_1_formatter.html#a16871ac5b26cf3c431f57921e63d6f43',1,'Xulog::Formatter']]],
-  ['getsize_8',['getSize',['../class_atlas.html#a553d67d67379a0c31909dd8b2067c5f0',1,'Atlas']]],
-  ['gettexture_9',['getTexture',['../class_atlas.html#ad81c0f2943fbc3d339ca996405b3b2f9',1,'Atlas']]],
-  ['gettime_10',['getTime',['../class_xulog_1_1_util_1_1_date.html#a32d8c9efdcaf981547fcd8f3381da363',1,'Xulog::Util::Date']]]
+  ['getposition_8',['getPosition',['../class_camera.html#af08bcf9151e2dad7efb65f9033a02cb7',1,'Camera']]],
+  ['getsize_9',['getSize',['../class_atlas.html#a553d67d67379a0c31909dd8b2067c5f0',1,'Atlas']]],
+  ['gettexture_10',['getTexture',['../class_atlas.html#ad81c0f2943fbc3d339ca996405b3b2f9',1,'Atlas']]],
+  ['gettime_11',['getTime',['../class_xulog_1_1_util_1_1_date.html#a32d8c9efdcaf981547fcd8f3381da363',1,'Xulog::Util::Date']]]
 ];

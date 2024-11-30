@@ -1,0 +1,7 @@
+<map id="Timer::onUpdate" name="Timer::onUpdate">
+<area shape="rect" id="Node000001" title="更新定时器 每帧调用此函数以更新定时器的计时时间。如果达到等待时间且满足触发条件 则调用设置的回调函数" alt="" coords="213,31,344,56"/>
+<area shape="rect" id="Node000002" href="$class_animation.html#a8fe31dfa29e595fd6a5c34fbc0251cc5" title="更新动画状态" alt="" coords="5,5,165,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,36,165,31,166,26,200,30"/>
+<area shape="rect" id="Node000003" href="$class_camera.html#addb54267fad7b33ce0e31f73c4887e2f" title="更新摄像机位置" alt="" coords="13,55,157,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,56,158,61,157,56,200,50"/>
+</map>

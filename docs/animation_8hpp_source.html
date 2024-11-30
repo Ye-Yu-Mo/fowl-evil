@@ -1,0 +1,291 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>fowl-evil: include/animation.hpp 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">fowl-evil<span id="projectnumber">&#160;dev 0.1</span>
+   </div>
+   <div id="projectbrief">一个基于C++ SDL的二维平面射击游戏</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('animation_8hpp_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">animation.hpp</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="animation_8hpp.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="timer_8hpp.html">timer.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="atlas_8hpp.html">atlas.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="camera_8hpp.html">camera.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="vector2_8hpp.html">vector2.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;SDL2/SDL.h&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;functional&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="class_animation.html">   19</a></span><span class="keyword">class </span><a class="code hl_class" href="class_animation.html">Animation</a></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="class_animation.html#a61f6f7d10fdb741958a757c86fab71b8">   22</a></span>    <span class="keyword">using </span><a class="code hl_typedef" href="class_animation.html#a61f6f7d10fdb741958a757c86fab71b8">onFinished</a> = std::function&lt;void()&gt;; </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="foldopen" id="foldopen00025" data-start="{" data-end="}">
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_animation.html#a83f0a16cef7117f187ad596de38dd9d6">   25</a></span>    <a class="code hl_function" href="class_animation.html#a83f0a16cef7117f187ad596de38dd9d6">Animation</a>()</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <a class="code hl_variable" href="class_animation.html#a69df0f23be6ba602c0639babeec1fbcd">_timer</a>.<a class="code hl_function" href="class_timer.html#a05e8d853c7c223f5304f7d586cf49b60">setOneShot</a>(<span class="keyword">false</span>);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <a class="code hl_variable" href="class_animation.html#a69df0f23be6ba602c0639babeec1fbcd">_timer</a>.<a class="code hl_function" href="class_timer.html#aae550d9efc306e761f5c1446d1154a43">setOnTimeout</a>([&amp;]()</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>                            {</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>            ++<a class="code hl_variable" href="class_animation.html#acb71dda94e0cd71d1772011c7cd99636">_idx_frame</a>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_animation.html#acb71dda94e0cd71d1772011c7cd99636">_idx_frame</a> &gt;= <a class="code hl_variable" href="class_animation.html#ad2c75e7a9c28147589a96e97db3eb8c1">_frame_list</a>.size())</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>                _idx_frame = _is_loop ? 0 : _frame_list.size() - 1;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>                if (!_is_loop &amp;&amp; _on_finished)</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>                    _on_finished();</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            } });</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
+</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="class_animation.html#aa93a530b4235cd1098758c1d1985a3eb">   39</a></span>    <a class="code hl_function" href="class_animation.html#aa93a530b4235cd1098758c1d1985a3eb">~Animation</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="foldopen" id="foldopen00042" data-start="{" data-end="}">
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="class_animation.html#a903eb4b61b8c7bc72bbedbdba4cbb501">   42</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_animation.html#a903eb4b61b8c7bc72bbedbdba4cbb501">reset</a>()</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    {</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <a class="code hl_variable" href="class_animation.html#a69df0f23be6ba602c0639babeec1fbcd">_timer</a>.<a class="code hl_function" href="class_timer.html#aa3f7871196bb56202af2bc982bfbfff6">restart</a>();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <a class="code hl_variable" href="class_animation.html#acb71dda94e0cd71d1772011c7cd99636">_idx_frame</a> = 0;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    }</div>
+</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="class_animation.html#ab46d5ee95857af8dd5405e75bd2fb5cc">   48</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_animation.html#ab46d5ee95857af8dd5405e75bd2fb5cc">setPosition</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_vector2.html">Vector2</a> &amp;position) { <a class="code hl_variable" href="class_animation.html#a1150cdfa612fe26689c3e59f70e72442">_position</a> = position; }</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="class_animation.html#a60b8315027af27cb490d66701032d6dd">   50</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_animation.html#a60b8315027af27cb490d66701032d6dd">setRotation</a>(<span class="keywordtype">double</span> angle) { <a class="code hl_variable" href="class_animation.html#a78f2f410c40ba4273e80450dcef0cf6c">_angle</a> = angle; }</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="class_animation.html#a0ee171198d5758f3c6a039978e276552">   52</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_animation.html#a0ee171198d5758f3c6a039978e276552">setCenter</a>(<span class="keyword">const</span> SDL_FPoint &amp;center) { <a class="code hl_variable" href="class_animation.html#a7c7a40b9cd2495c9ae4a1899b3852e45">_center</a> = center; }</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="class_animation.html#ad58a175c3bbe12d23a22d581ecb3d3be">   54</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_animation.html#ad58a175c3bbe12d23a22d581ecb3d3be">setLoop</a>(<span class="keywordtype">bool</span> is_loop) { <a class="code hl_variable" href="class_animation.html#a602532f175d3f4572b251cbbd4cd2e4e">_is_loop</a> = is_loop; }</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="class_animation.html#a3ccf4d6fc7920710a79aff9639d67828">   56</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_animation.html#a3ccf4d6fc7920710a79aff9639d67828">setInterval</a>(<span class="keywordtype">float</span> interval) { <a class="code hl_variable" href="class_animation.html#a69df0f23be6ba602c0639babeec1fbcd">_timer</a>.<a class="code hl_function" href="class_timer.html#a364bc8b2d1a26f2191162848d33b0629">setWaitTime</a>(interval); }</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="class_animation.html#a3f24b9f2b5295e64208fc4c725fa1224">   58</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_animation.html#a3f24b9f2b5295e64208fc4c725fa1224">setOnFinished</a>(<a class="code hl_typedef" href="class_animation.html#a61f6f7d10fdb741958a757c86fab71b8">onFinished</a> on_finished) { <a class="code hl_variable" href="class_animation.html#a9c0196d6d02e48499f4cf72a0b3e02f6">_on_finished</a> = on_finished; }</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="foldopen" id="foldopen00064" data-start="{" data-end="}">
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="class_animation.html#a32ad5127f5ec81e09afb89ac69b28f60">   64</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_animation.html#a32ad5127f5ec81e09afb89ac69b28f60">addFrame</a>(SDL_Texture *texture, <span class="keywordtype">int</span> num_h)</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    {</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keywordtype">int</span> width, height;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        SDL_QueryTexture(texture, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, &amp;width, &amp;height);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <span class="keywordtype">int</span> width_frame = width / num_h;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; num_h; i++)</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        {</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>            SDL_Rect rect_src;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>            rect_src.x = i * width_frame, rect_src.y = 0;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            rect_src.w = width_frame, rect_src.h = height;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>            <a class="code hl_variable" href="class_animation.html#ad2c75e7a9c28147589a96e97db3eb8c1">_frame_list</a>.emplace_back(texture, rect_src);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        }</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    }</div>
+</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="foldopen" id="foldopen00083" data-start="{" data-end="}">
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="class_animation.html#a44fd91feb7ba3189b4392267a3c0f7d2">   83</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_animation.html#a44fd91feb7ba3189b4392267a3c0f7d2">addFrame</a>(<a class="code hl_class" href="class_atlas.html">Atlas</a> *atlas)</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    {</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; atlas-&gt;<a class="code hl_function" href="class_atlas.html#a553d67d67379a0c31909dd8b2067c5f0">getSize</a>(); i++)</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        {</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>            SDL_Texture *texture = atlas-&gt;<a class="code hl_function" href="class_atlas.html#ad81c0f2943fbc3d339ca996405b3b2f9">getTexture</a>(i);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            <span class="keywordtype">int</span> width, height;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            SDL_QueryTexture(texture, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, &amp;width, &amp;height);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>            SDL_Rect rect_src;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>            rect_src.x = 0, rect_src.y = 0;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>            rect_src.w = width, rect_src.h = height;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>            <a class="code hl_variable" href="class_animation.html#ad2c75e7a9c28147589a96e97db3eb8c1">_frame_list</a>.emplace_back(texture, rect_src);</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        }</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    }</div>
+</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="class_animation.html#a8fe31dfa29e595fd6a5c34fbc0251cc5">  100</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_animation.html#a8fe31dfa29e595fd6a5c34fbc0251cc5">onUpdate</a>(<span class="keywordtype">float</span> delta) { <a class="code hl_variable" href="class_animation.html#a69df0f23be6ba602c0639babeec1fbcd">_timer</a>.<a class="code hl_function" href="class_timer.html#ab480a7b39937678fa0e759e37f645f66">onUpdate</a>(delta); }</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="foldopen" id="foldopen00105" data-start="{" data-end="}">
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="class_animation.html#aba3b39d9cc4949a1a9a43e3999e485c3">  105</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_animation.html#aba3b39d9cc4949a1a9a43e3999e485c3">onRender</a>(<span class="keyword">const</span> <a class="code hl_class" href="class_camera.html">Camera</a> &amp;camera)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        <span class="keyword">const</span> <a class="code hl_struct" href="struct_animation_1_1_frame.html">Frame</a> &amp;frame = <a class="code hl_variable" href="class_animation.html#ad2c75e7a9c28147589a96e97db3eb8c1">_frame_list</a>[<a class="code hl_variable" href="class_animation.html#acb71dda94e0cd71d1772011c7cd99636">_idx_frame</a>];</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        <span class="keyword">const</span> <a class="code hl_class" href="class_vector2.html">Vector2</a> &amp;pos_camera = camera.<a class="code hl_function" href="class_camera.html#af08bcf9151e2dad7efb65f9033a02cb7">getPosition</a>();</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        SDL_FRect rect_dst;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        rect_dst.<a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a> = <a class="code hl_variable" href="class_animation.html#a1150cdfa612fe26689c3e59f70e72442">_position</a>.<a class="code hl_variable" href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">x</a> - frame.<a class="code hl_variable" href="struct_animation_1_1_frame.html#a48fa03196bd70be17eab98f6557eeb25">_rect_src</a>.w / 2;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        rect_dst.y = <a class="code hl_variable" href="class_animation.html#a1150cdfa612fe26689c3e59f70e72442">_position</a>.<a class="code hl_variable" href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">y</a> - frame.<a class="code hl_variable" href="struct_animation_1_1_frame.html#a48fa03196bd70be17eab98f6557eeb25">_rect_src</a>.h / 2;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        rect_dst.w = (float)frame.<a class="code hl_variable" href="struct_animation_1_1_frame.html#a48fa03196bd70be17eab98f6557eeb25">_rect_src</a>.w, rect_dst.h = (<span class="keywordtype">float</span>)frame.<a class="code hl_variable" href="struct_animation_1_1_frame.html#a48fa03196bd70be17eab98f6557eeb25">_rect_src</a>.h;</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        camera.<a class="code hl_function" href="class_camera.html#a3101102e0b0f359a33c87d26a27bb2d9">renderTexture</a>(frame.<a class="code hl_variable" href="struct_animation_1_1_frame.html#a4b3513c27235a62179a8d2c1661017fa">_texture</a>, &amp;frame.<a class="code hl_variable" href="struct_animation_1_1_frame.html#a48fa03196bd70be17eab98f6557eeb25">_rect_src</a>, &amp;rect_dst, <a class="code hl_variable" href="class_animation.html#a78f2f410c40ba4273e80450dcef0cf6c">_angle</a>, &amp;<a class="code hl_variable" href="class_animation.html#a7c7a40b9cd2495c9ae4a1899b3852e45">_center</a>);</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    }</div>
+</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="keyword">private</span>:</div>
+<div class="foldopen" id="foldopen00122" data-start="{" data-end="};">
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="struct_animation_1_1_frame.html">  122</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="struct_animation_1_1_frame.html">Frame</a></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    {</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno"><a class="line" href="struct_animation_1_1_frame.html#a48fa03196bd70be17eab98f6557eeb25">  124</a></span>        SDL_Rect <a class="code hl_variable" href="struct_animation_1_1_frame.html#a48fa03196bd70be17eab98f6557eeb25">_rect_src</a>;              </div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="struct_animation_1_1_frame.html#a4b3513c27235a62179a8d2c1661017fa">  125</a></span>        SDL_Texture *<a class="code hl_variable" href="struct_animation_1_1_frame.html#a4b3513c27235a62179a8d2c1661017fa">_texture</a> = <span class="keyword">nullptr</span>; </div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="struct_animation_1_1_frame.html#a7d40805ced9ad28cab963361d89ae626">  127</a></span>        <a class="code hl_function" href="struct_animation_1_1_frame.html#a7d40805ced9ad28cab963361d89ae626">Frame</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="struct_animation_1_1_frame.html#af0b632616d0e75233d74b75329b638b7">  128</a></span>        <a class="code hl_function" href="struct_animation_1_1_frame.html#af0b632616d0e75233d74b75329b638b7">~Frame</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
+<div class="foldopen" id="foldopen00133" data-start="{" data-end="}">
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="struct_animation_1_1_frame.html#af7e2ca9b4fbf109d969a0dcfd71d9956">  133</a></span>        <a class="code hl_function" href="struct_animation_1_1_frame.html#af7e2ca9b4fbf109d969a0dcfd71d9956">Frame</a>(SDL_Texture *texture, <span class="keyword">const</span> SDL_Rect &amp;rect_src)</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>            : <a class="code hl_variable" href="struct_animation_1_1_frame.html#a4b3513c27235a62179a8d2c1661017fa">_texture</a>(texture), <a class="code hl_variable" href="struct_animation_1_1_frame.html#a48fa03196bd70be17eab98f6557eeb25">_rect_src</a>(rect_src) {}</div>
+</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    };</div>
+</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno"><a class="line" href="class_animation.html#a1150cdfa612fe26689c3e59f70e72442">  138</a></span>    <a class="code hl_class" href="class_vector2.html">Vector2</a> <a class="code hl_variable" href="class_animation.html#a1150cdfa612fe26689c3e59f70e72442">_position</a>;              </div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno"><a class="line" href="class_animation.html#a78f2f410c40ba4273e80450dcef0cf6c">  139</a></span>    <span class="keywordtype">double</span> <a class="code hl_variable" href="class_animation.html#a78f2f410c40ba4273e80450dcef0cf6c">_angle</a> = 0;              </div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno"><a class="line" href="class_animation.html#a7c7a40b9cd2495c9ae4a1899b3852e45">  140</a></span>    SDL_FPoint <a class="code hl_variable" href="class_animation.html#a7c7a40b9cd2495c9ae4a1899b3852e45">_center</a> = {0};       </div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="class_animation.html#a69df0f23be6ba602c0639babeec1fbcd">  141</a></span>    <a class="code hl_class" href="class_timer.html">Timer</a> <a class="code hl_variable" href="class_animation.html#a69df0f23be6ba602c0639babeec1fbcd">_timer</a>;                   </div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="class_animation.html#a602532f175d3f4572b251cbbd4cd2e4e">  142</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_animation.html#a602532f175d3f4572b251cbbd4cd2e4e">_is_loop</a> = <span class="keyword">true</span>;           </div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno"><a class="line" href="class_animation.html#acb71dda94e0cd71d1772011c7cd99636">  143</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_variable" href="class_animation.html#acb71dda94e0cd71d1772011c7cd99636">_idx_frame</a> = 0;          </div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno"><a class="line" href="class_animation.html#ad2c75e7a9c28147589a96e97db3eb8c1">  144</a></span>    std::vector&lt;Frame&gt; <a class="code hl_variable" href="class_animation.html#ad2c75e7a9c28147589a96e97db3eb8c1">_frame_list</a>; </div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno"><a class="line" href="class_animation.html#a9c0196d6d02e48499f4cf72a0b3e02f6">  145</a></span>    <a class="code hl_typedef" href="class_animation.html#a61f6f7d10fdb741958a757c86fab71b8">onFinished</a> <a class="code hl_variable" href="class_animation.html#a9c0196d6d02e48499f4cf72a0b3e02f6">_on_finished</a>;        </div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>};</div>
+</div>
+<div class="ttc" id="aatlas_8hpp_html"><div class="ttname"><a href="atlas_8hpp.html">atlas.hpp</a></div><div class="ttdoc">图集类 绘制图片素材时 从 图片 -&gt; 内存结构 SDL_Surface 借助硬件加速进行绘图 SDL_Surface -&gt; 显存结构 -&gt; 借助 Renderer 进行渲染显式到窗口</div></div>
+<div class="ttc" id="acamera_8hpp_html"><div class="ttname"><a href="camera_8hpp.html">camera.hpp</a></div><div class="ttdoc">摄像机类 如果摄像机本身就在抖动的状态中 只需要随机摄像机本身的位置 就能产生抖动的效果</div></div>
+<div class="ttc" id="aclass_animation_html"><div class="ttname"><a href="class_animation.html">Animation</a></div><div class="ttdoc">帧动画类</div><div class="ttdef"><b>Definition</b> animation.hpp:20</div></div>
+<div class="ttc" id="aclass_animation_html_a0ee171198d5758f3c6a039978e276552"><div class="ttname"><a href="class_animation.html#a0ee171198d5758f3c6a039978e276552">Animation::setCenter</a></div><div class="ttdeci">void setCenter(const SDL_FPoint &amp;center)</div><div class="ttdoc">设置旋转中心</div><div class="ttdef"><b>Definition</b> animation.hpp:52</div></div>
+<div class="ttc" id="aclass_animation_html_a1150cdfa612fe26689c3e59f70e72442"><div class="ttname"><a href="class_animation.html#a1150cdfa612fe26689c3e59f70e72442">Animation::_position</a></div><div class="ttdeci">Vector2 _position</div><div class="ttdoc">动画位置</div><div class="ttdef"><b>Definition</b> animation.hpp:138</div></div>
+<div class="ttc" id="aclass_animation_html_a32ad5127f5ec81e09afb89ac69b28f60"><div class="ttname"><a href="class_animation.html#a32ad5127f5ec81e09afb89ac69b28f60">Animation::addFrame</a></div><div class="ttdeci">void addFrame(SDL_Texture *texture, int num_h)</div><div class="ttdoc">添加一组帧到动画中 将一组由相同纹理但不同裁剪区域的帧添加到动画中。</div><div class="ttdef"><b>Definition</b> animation.hpp:64</div></div>
+<div class="ttc" id="aclass_animation_html_a3ccf4d6fc7920710a79aff9639d67828"><div class="ttname"><a href="class_animation.html#a3ccf4d6fc7920710a79aff9639d67828">Animation::setInterval</a></div><div class="ttdeci">void setInterval(float interval)</div><div class="ttdoc">设置每帧的间隔时间</div><div class="ttdef"><b>Definition</b> animation.hpp:56</div></div>
+<div class="ttc" id="aclass_animation_html_a3f24b9f2b5295e64208fc4c725fa1224"><div class="ttname"><a href="class_animation.html#a3f24b9f2b5295e64208fc4c725fa1224">Animation::setOnFinished</a></div><div class="ttdeci">void setOnFinished(onFinished on_finished)</div><div class="ttdoc">设置动画完成后的回调函数</div><div class="ttdef"><b>Definition</b> animation.hpp:58</div></div>
+<div class="ttc" id="aclass_animation_html_a44fd91feb7ba3189b4392267a3c0f7d2"><div class="ttname"><a href="class_animation.html#a44fd91feb7ba3189b4392267a3c0f7d2">Animation::addFrame</a></div><div class="ttdeci">void addFrame(Atlas *atlas)</div><div class="ttdoc">添加一个图集中的所有帧到动画中 将 Atlas 中的所有纹理帧添加到动画中。</div><div class="ttdef"><b>Definition</b> animation.hpp:83</div></div>
+<div class="ttc" id="aclass_animation_html_a602532f175d3f4572b251cbbd4cd2e4e"><div class="ttname"><a href="class_animation.html#a602532f175d3f4572b251cbbd4cd2e4e">Animation::_is_loop</a></div><div class="ttdeci">bool _is_loop</div><div class="ttdoc">是否循环播放</div><div class="ttdef"><b>Definition</b> animation.hpp:142</div></div>
+<div class="ttc" id="aclass_animation_html_a60b8315027af27cb490d66701032d6dd"><div class="ttname"><a href="class_animation.html#a60b8315027af27cb490d66701032d6dd">Animation::setRotation</a></div><div class="ttdeci">void setRotation(double angle)</div><div class="ttdoc">设置动画旋转角度</div><div class="ttdef"><b>Definition</b> animation.hpp:50</div></div>
+<div class="ttc" id="aclass_animation_html_a61f6f7d10fdb741958a757c86fab71b8"><div class="ttname"><a href="class_animation.html#a61f6f7d10fdb741958a757c86fab71b8">Animation::onFinished</a></div><div class="ttdeci">std::function&lt; void()&gt; onFinished</div><div class="ttdoc">完成帧动画时的回调类型</div><div class="ttdef"><b>Definition</b> animation.hpp:22</div></div>
+<div class="ttc" id="aclass_animation_html_a69df0f23be6ba602c0639babeec1fbcd"><div class="ttname"><a href="class_animation.html#a69df0f23be6ba602c0639babeec1fbcd">Animation::_timer</a></div><div class="ttdeci">Timer _timer</div><div class="ttdoc">定时器对象</div><div class="ttdef"><b>Definition</b> animation.hpp:141</div></div>
+<div class="ttc" id="aclass_animation_html_a78f2f410c40ba4273e80450dcef0cf6c"><div class="ttname"><a href="class_animation.html#a78f2f410c40ba4273e80450dcef0cf6c">Animation::_angle</a></div><div class="ttdeci">double _angle</div><div class="ttdoc">动画旋转角度</div><div class="ttdef"><b>Definition</b> animation.hpp:139</div></div>
+<div class="ttc" id="aclass_animation_html_a7c7a40b9cd2495c9ae4a1899b3852e45"><div class="ttname"><a href="class_animation.html#a7c7a40b9cd2495c9ae4a1899b3852e45">Animation::_center</a></div><div class="ttdeci">SDL_FPoint _center</div><div class="ttdoc">旋转中心</div><div class="ttdef"><b>Definition</b> animation.hpp:140</div></div>
+<div class="ttc" id="aclass_animation_html_a83f0a16cef7117f187ad596de38dd9d6"><div class="ttname"><a href="class_animation.html#a83f0a16cef7117f187ad596de38dd9d6">Animation::Animation</a></div><div class="ttdeci">Animation()</div><div class="ttdoc">构造函数</div><div class="ttdef"><b>Definition</b> animation.hpp:25</div></div>
+<div class="ttc" id="aclass_animation_html_a8fe31dfa29e595fd6a5c34fbc0251cc5"><div class="ttname"><a href="class_animation.html#a8fe31dfa29e595fd6a5c34fbc0251cc5">Animation::onUpdate</a></div><div class="ttdeci">void onUpdate(float delta)</div><div class="ttdoc">更新动画状态</div><div class="ttdef"><b>Definition</b> animation.hpp:100</div></div>
+<div class="ttc" id="aclass_animation_html_a903eb4b61b8c7bc72bbedbdba4cbb501"><div class="ttname"><a href="class_animation.html#a903eb4b61b8c7bc72bbedbdba4cbb501">Animation::reset</a></div><div class="ttdeci">void reset()</div><div class="ttdoc">重置动画的当前帧索引和定时器状态</div><div class="ttdef"><b>Definition</b> animation.hpp:42</div></div>
+<div class="ttc" id="aclass_animation_html_a9c0196d6d02e48499f4cf72a0b3e02f6"><div class="ttname"><a href="class_animation.html#a9c0196d6d02e48499f4cf72a0b3e02f6">Animation::_on_finished</a></div><div class="ttdeci">onFinished _on_finished</div><div class="ttdoc">播放完成时的回调函数</div><div class="ttdef"><b>Definition</b> animation.hpp:145</div></div>
+<div class="ttc" id="aclass_animation_html_aa93a530b4235cd1098758c1d1985a3eb"><div class="ttname"><a href="class_animation.html#aa93a530b4235cd1098758c1d1985a3eb">Animation::~Animation</a></div><div class="ttdeci">~Animation()=default</div></div>
+<div class="ttc" id="aclass_animation_html_ab46d5ee95857af8dd5405e75bd2fb5cc"><div class="ttname"><a href="class_animation.html#ab46d5ee95857af8dd5405e75bd2fb5cc">Animation::setPosition</a></div><div class="ttdeci">void setPosition(const Vector2 &amp;position)</div><div class="ttdoc">设置动画位置</div><div class="ttdef"><b>Definition</b> animation.hpp:48</div></div>
+<div class="ttc" id="aclass_animation_html_aba3b39d9cc4949a1a9a43e3999e485c3"><div class="ttname"><a href="class_animation.html#aba3b39d9cc4949a1a9a43e3999e485c3">Animation::onRender</a></div><div class="ttdeci">void onRender(const Camera &amp;camera) const</div><div class="ttdoc">渲染动画 在给定的摄像机视角下渲染当前帧。</div><div class="ttdef"><b>Definition</b> animation.hpp:105</div></div>
+<div class="ttc" id="aclass_animation_html_acb71dda94e0cd71d1772011c7cd99636"><div class="ttname"><a href="class_animation.html#acb71dda94e0cd71d1772011c7cd99636">Animation::_idx_frame</a></div><div class="ttdeci">size_t _idx_frame</div><div class="ttdoc">当前帧索引</div><div class="ttdef"><b>Definition</b> animation.hpp:143</div></div>
+<div class="ttc" id="aclass_animation_html_ad2c75e7a9c28147589a96e97db3eb8c1"><div class="ttname"><a href="class_animation.html#ad2c75e7a9c28147589a96e97db3eb8c1">Animation::_frame_list</a></div><div class="ttdeci">std::vector&lt; Frame &gt; _frame_list</div><div class="ttdoc">帧列表</div><div class="ttdef"><b>Definition</b> animation.hpp:144</div></div>
+<div class="ttc" id="aclass_animation_html_ad58a175c3bbe12d23a22d581ecb3d3be"><div class="ttname"><a href="class_animation.html#ad58a175c3bbe12d23a22d581ecb3d3be">Animation::setLoop</a></div><div class="ttdeci">void setLoop(bool is_loop)</div><div class="ttdoc">设置是否循环播放</div><div class="ttdef"><b>Definition</b> animation.hpp:54</div></div>
+<div class="ttc" id="aclass_atlas_html"><div class="ttname"><a href="class_atlas.html">Atlas</a></div><div class="ttdoc">图集 持有并管理图片纹理对象</div><div class="ttdef"><b>Definition</b> atlas.hpp:21</div></div>
+<div class="ttc" id="aclass_atlas_html_a553d67d67379a0c31909dd8b2067c5f0"><div class="ttname"><a href="class_atlas.html#a553d67d67379a0c31909dd8b2067c5f0">Atlas::getSize</a></div><div class="ttdeci">int getSize() const</div><div class="ttdoc">获取图集数量</div><div class="ttdef"><b>Definition</b> atlas.hpp:41</div></div>
+<div class="ttc" id="aclass_atlas_html_ad81c0f2943fbc3d339ca996405b3b2f9"><div class="ttname"><a href="class_atlas.html#ad81c0f2943fbc3d339ca996405b3b2f9">Atlas::getTexture</a></div><div class="ttdeci">SDL_Texture * getTexture(int idx)</div><div class="ttdoc">获取指定下标的纹理对象</div><div class="ttdef"><b>Definition</b> atlas.hpp:49</div></div>
+<div class="ttc" id="aclass_camera_html"><div class="ttname"><a href="class_camera.html">Camera</a></div><div class="ttdoc">处理摄像机位置和抖动效果的类</div><div class="ttdef"><b>Definition</b> camera.hpp:16</div></div>
+<div class="ttc" id="aclass_camera_html_a3101102e0b0f359a33c87d26a27bb2d9"><div class="ttname"><a href="class_camera.html#a3101102e0b0f359a33c87d26a27bb2d9">Camera::renderTexture</a></div><div class="ttdeci">void renderTexture(SDL_Texture *texture, const SDL_Rect *rect_src, const SDL_FRect *rect_dst, double angle, const SDL_FPoint *center) const</div><div class="ttdoc">渲染纹理</div><div class="ttdef"><b>Definition</b> camera.hpp:75</div></div>
+<div class="ttc" id="aclass_camera_html_af08bcf9151e2dad7efb65f9033a02cb7"><div class="ttname"><a href="class_camera.html#af08bcf9151e2dad7efb65f9033a02cb7">Camera::getPosition</a></div><div class="ttdeci">const Vector2 &amp; getPosition() const</div><div class="ttdoc">获取摄像机当前位置</div><div class="ttdef"><b>Definition</b> camera.hpp:33</div></div>
+<div class="ttc" id="aclass_timer_html"><div class="ttname"><a href="class_timer.html">Timer</a></div><div class="ttdoc">定时器类。</div><div class="ttdef"><b>Definition</b> timer.hpp:16</div></div>
+<div class="ttc" id="aclass_timer_html_a05e8d853c7c223f5304f7d586cf49b60"><div class="ttname"><a href="class_timer.html#a05e8d853c7c223f5304f7d586cf49b60">Timer::setOneShot</a></div><div class="ttdeci">void setOneShot(bool one_shot_enable)</div><div class="ttdoc">设置单次触发模式</div><div class="ttdef"><b>Definition</b> timer.hpp:81</div></div>
+<div class="ttc" id="aclass_timer_html_a364bc8b2d1a26f2191162848d33b0629"><div class="ttname"><a href="class_timer.html#a364bc8b2d1a26f2191162848d33b0629">Timer::setWaitTime</a></div><div class="ttdeci">void setWaitTime(float val)</div><div class="ttdoc">设置定时器等待时间</div><div class="ttdef"><b>Definition</b> timer.hpp:35</div></div>
+<div class="ttc" id="aclass_timer_html_aa3f7871196bb56202af2bc982bfbfff6"><div class="ttname"><a href="class_timer.html#aa3f7871196bb56202af2bc982bfbfff6">Timer::restart</a></div><div class="ttdeci">void restart()</div><div class="ttdoc">重置定时器 将累计的计时时间重置为零，并取消触发状态</div><div class="ttdef"><b>Definition</b> timer.hpp:27</div></div>
+<div class="ttc" id="aclass_timer_html_aae550d9efc306e761f5c1446d1154a43"><div class="ttname"><a href="class_timer.html#aae550d9efc306e761f5c1446d1154a43">Timer::setOnTimeout</a></div><div class="ttdeci">void setOnTimeout(TimeOut on_timeout)</div><div class="ttdoc">设置超时触发时的回调函数</div><div class="ttdef"><b>Definition</b> timer.hpp:41</div></div>
+<div class="ttc" id="aclass_timer_html_ab480a7b39937678fa0e759e37f645f66"><div class="ttname"><a href="class_timer.html#ab480a7b39937678fa0e759e37f645f66">Timer::onUpdate</a></div><div class="ttdeci">void onUpdate(float delta)</div><div class="ttdoc">更新定时器 每帧调用此函数以更新定时器的计时时间。如果达到等待时间且满足触发条件 则调用设置的回调函数</div><div class="ttdef"><b>Definition</b> timer.hpp:63</div></div>
+<div class="ttc" id="aclass_vector2_html"><div class="ttname"><a href="class_vector2.html">Vector2</a></div><div class="ttdoc">二维向量类</div><div class="ttdef"><b>Definition</b> vector2.hpp:11</div></div>
+<div class="ttc" id="aclass_vector2_html_a046bb8d17a876acc49415128dc0502f2"><div class="ttname"><a href="class_vector2.html#a046bb8d17a876acc49415128dc0502f2">Vector2::x</a></div><div class="ttdeci">float x</div><div class="ttdoc">向量的 x 分量</div><div class="ttdef"><b>Definition</b> vector2.hpp:100</div></div>
+<div class="ttc" id="aclass_vector2_html_a0e07bad05f01ed811b909a2eef97f9e2"><div class="ttname"><a href="class_vector2.html#a0e07bad05f01ed811b909a2eef97f9e2">Vector2::y</a></div><div class="ttdeci">float y</div><div class="ttdoc">向量的 y 分量</div><div class="ttdef"><b>Definition</b> vector2.hpp:101</div></div>
+<div class="ttc" id="astruct_animation_1_1_frame_html"><div class="ttname"><a href="struct_animation_1_1_frame.html">Animation::Frame</a></div><div class="ttdoc">帧结构体 存储单个帧的信息，包括纹理和裁剪区域</div><div class="ttdef"><b>Definition</b> animation.hpp:123</div></div>
+<div class="ttc" id="astruct_animation_1_1_frame_html_a48fa03196bd70be17eab98f6557eeb25"><div class="ttname"><a href="struct_animation_1_1_frame.html#a48fa03196bd70be17eab98f6557eeb25">Animation::Frame::_rect_src</a></div><div class="ttdeci">SDL_Rect _rect_src</div><div class="ttdoc">裁剪区域</div><div class="ttdef"><b>Definition</b> animation.hpp:124</div></div>
+<div class="ttc" id="astruct_animation_1_1_frame_html_a4b3513c27235a62179a8d2c1661017fa"><div class="ttname"><a href="struct_animation_1_1_frame.html#a4b3513c27235a62179a8d2c1661017fa">Animation::Frame::_texture</a></div><div class="ttdeci">SDL_Texture * _texture</div><div class="ttdoc">纹理对象</div><div class="ttdef"><b>Definition</b> animation.hpp:125</div></div>
+<div class="ttc" id="astruct_animation_1_1_frame_html_a7d40805ced9ad28cab963361d89ae626"><div class="ttname"><a href="struct_animation_1_1_frame.html#a7d40805ced9ad28cab963361d89ae626">Animation::Frame::Frame</a></div><div class="ttdeci">Frame()=default</div></div>
+<div class="ttc" id="astruct_animation_1_1_frame_html_af0b632616d0e75233d74b75329b638b7"><div class="ttname"><a href="struct_animation_1_1_frame.html#af0b632616d0e75233d74b75329b638b7">Animation::Frame::~Frame</a></div><div class="ttdeci">~Frame()=default</div></div>
+<div class="ttc" id="astruct_animation_1_1_frame_html_af7e2ca9b4fbf109d969a0dcfd71d9956"><div class="ttname"><a href="struct_animation_1_1_frame.html#af7e2ca9b4fbf109d969a0dcfd71d9956">Animation::Frame::Frame</a></div><div class="ttdeci">Frame(SDL_Texture *texture, const SDL_Rect &amp;rect_src)</div><div class="ttdoc">构造函数</div><div class="ttdef"><b>Definition</b> animation.hpp:133</div></div>
+<div class="ttc" id="atimer_8hpp_html"><div class="ttname"><a href="timer_8hpp.html">timer.hpp</a></div><div class="ttdoc">定时器</div></div>
+<div class="ttc" id="avector2_8hpp_html"><div class="ttname"><a href="vector2_8hpp.html">vector2.hpp</a></div><div class="ttdoc">二维向量类 用来表述坐标位置 移动速度等矢量值</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="animation_8hpp.html">animation.hpp</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

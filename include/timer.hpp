@@ -76,6 +76,13 @@ public:
         }
     }
 
+    /// @brief 设置单次触发模式
+    /// @param one_shot_enable  是否开启
+    void setOneShot(bool one_shot_enable) 
+    {
+        _one_shot = one_shot_enable;
+    }
+
 private:
     float _pass_time = 0;   ///< 已经过的时间（秒）
     float _wait_time = 0;   ///< 等待的时间（秒）

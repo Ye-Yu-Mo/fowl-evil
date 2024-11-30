@@ -1,8 +1,10 @@
 var hierarchy =
 [
+    [ "Animation", "class_animation.html", null ],
     [ "Xulog::AsyncLooper", "class_xulog_1_1_async_looper.html", null ],
     [ "Atlas", "class_atlas.html", null ],
     [ "Xulog::Buffer", "class_xulog_1_1_buffer.html", null ],
+    [ "Camera", "class_camera.html", null ],
     [ "Xulog::Util::Date", "class_xulog_1_1_util_1_1_date.html", null ],
     [ "Xulog::Util::File", "class_xulog_1_1_util_1_1_file.html", null ],
     [ "Xulog::FormatItem", "class_xulog_1_1_format_item.html", [
@@ -18,6 +20,7 @@ var hierarchy =
       [ "Xulog::TimeFormatItem", "class_xulog_1_1_time_format_item.html", null ]
     ] ],
     [ "Xulog::Formatter", "class_xulog_1_1_formatter.html", null ],
+    [ "Animation::Frame", "struct_animation_1_1_frame.html", null ],
     [ "Xulog::Logger", "class_xulog_1_1_logger.html", [
       [ "Xulog::AsyncLogger", "class_xulog_1_1_async_logger.html", null ],
       [ "Xulog::SyncLogger", "class_xulog_1_1_sync_logger.html", null ]

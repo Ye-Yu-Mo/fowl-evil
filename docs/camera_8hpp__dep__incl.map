@@ -1,0 +1,5 @@
+<map id="include/camera.hpp" name="include/camera.hpp">
+<area shape="rect" id="Node000001" title="摄像机类 如果摄像机本身就在抖动的状态中 只需要随机摄像机本身的位置 就能产生抖动的效果" alt="" coords="13,5,164,31"/>
+<area shape="rect" id="Node000002" href="$animation_8hpp.html" title="帧动画 使用Timer定时器 控制每隔一段时间 切换显示的纹理到下一个逻辑帧 逻辑帧可以是 下一张图片对象 或者 同一张纹理对象的不同裁剪区域" alt="" coords="5,79,172,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,44,91,79,86,79,86,44"/>
+</map>

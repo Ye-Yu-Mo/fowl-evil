@@ -1,0 +1,9 @@
+<map id="Camera::Camera" name="Camera::Camera">
+<area shape="rect" id="Node000001" title="构造函数" alt="" coords="5,55,137,80"/>
+<area shape="rect" id="Node000002" href="$class_camera.html#a02be8aa0dbef77e02dddc715a726fb67" title="重置摄像机位置" alt="" coords="208,5,323,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,52,200,32,202,37,123,57"/>
+<area shape="rect" id="Node000003" href="$class_timer.html#a05e8d853c7c223f5304f7d586cf49b60" title="设置单次触发模式" alt="" coords="194,55,337,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,65,180,65,180,70,137,70"/>
+<area shape="rect" id="Node000004" href="$class_timer.html#aae550d9efc306e761f5c1446d1154a43" title="设置超时触发时的回调函数" alt="" coords="185,104,345,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="123,77,202,98,200,103,121,83"/>
+</map>

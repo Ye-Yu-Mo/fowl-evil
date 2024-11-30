@@ -1,0 +1,5 @@
+<map id="Atlas::getTexture" name="Atlas::getTexture">
+<area shape="rect" id="Node000001" title="获取指定下标的纹理对象" alt="" coords="216,5,348,31"/>
+<area shape="rect" id="Node000002" href="$class_animation.html#a44fd91feb7ba3189b4392267a3c0f7d2" title="添加一个图集中的所有帧到动画中 将 Atlas 中的所有纹理帧添加到动画中。" alt="" coords="5,5,168,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,21,168,21,168,15,202,15"/>
+</map>

@@ -1,7 +1,9 @@
-<map id="/home/leaf/fowl&#45;evil/third/logs/Xulog.h" name="/home/leaf/fowl&#45;evil/third/logs/Xulog.h">
-<area shape="rect" id="Node000001" title="全局日志接口和宏定义" alt="" coords="5,5,159,45"/>
-<area shape="rect" id="Node000002" href="$include_2logger_8hpp.html" title="异步日志器初始化" alt="" coords="5,93,159,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,59,85,93,79,93,79,59"/>
-<area shape="rect" id="Node000003" href="$atlas_8hpp.html" title="图集类 绘制图片素材时 从 图片 &#45;&gt; 内存结构 SDL_Surface 借助硬件加速进行绘图 SDL_Surface &#45;&gt; 显存结构 &#45;&gt; 借助 Renderer 进行渲染显式到窗口" alt="" coords="5,181,159,221"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,147,85,181,79,181,79,147"/>
+<map id="third/logs/Xulog.h" name="third/logs/Xulog.h">
+<area shape="rect" id="Node000001" title="全局日志接口和宏定义" alt="" coords="21,5,157,31"/>
+<area shape="rect" id="Node000002" href="$include_2logger_8hpp.html" title="异步日志器初始化" alt="" coords="18,79,159,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,44,91,79,86,79,86,44"/>
+<area shape="rect" id="Node000003" href="$atlas_8hpp.html" title="图集类 绘制图片素材时 从 图片 &#45;&gt; 内存结构 SDL_Surface 借助硬件加速进行绘图 SDL_Surface &#45;&gt; 显存结构 &#45;&gt; 借助 Renderer 进行渲染显式到窗口" alt="" coords="22,152,155,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,118,91,152,86,152,86,118"/>
+<area shape="rect" id="Node000004" href="$animation_8hpp.html" title="帧动画 使用Timer定时器 控制每隔一段时间 切换显示的纹理到下一个逻辑帧 逻辑帧可以是 下一张图片对象 或者 同一张纹理对象的不同裁剪区域" alt="" coords="5,225,172,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="91,191,91,225,86,225,86,191"/>
 </map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['otherformatitem_0',['OtherFormatItem',['../class_xulog_1_1_other_format_item.html',1,'Xulog']]]
+  ['nlineformatitem_0',['NLineFormatItem',['../class_xulog_1_1_n_line_format_item.html',1,'Xulog']]]
 ];

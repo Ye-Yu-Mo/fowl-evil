@@ -1,0 +1,5 @@
+<map id="Camera::reset" name="Camera::reset">
+<area shape="rect" id="Node000001" title="重置摄像机位置" alt="" coords="185,5,300,31"/>
+<area shape="rect" id="Node000002" href="$class_camera.html#a7f1455125cf3744953f9a94a9777d376" title="构造函数" alt="" coords="5,5,137,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,21,137,21,137,15,172,15"/>
+</map>

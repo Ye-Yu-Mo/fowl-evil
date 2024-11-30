@@ -1,0 +1,5 @@
+<map id="Camera::renderTexture" name="Camera::renderTexture">
+<area shape="rect" id="Node000001" title="渲染纹理" alt="" coords="212,5,383,31"/>
+<area shape="rect" id="Node000002" href="$class_animation.html#aba3b39d9cc4949a1a9a43e3999e485c3" title="渲染动画 在给定的摄像机视角下渲染当前帧。" alt="" coords="5,5,164,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,21,164,21,164,15,198,15"/>
+</map>

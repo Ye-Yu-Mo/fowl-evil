@@ -1,0 +1,7 @@
+<map id="Animation::onRender" name="Animation::onRender">
+<area shape="rect" id="Node000001" title="渲染动画 在给定的摄像机视角下渲染当前帧。" alt="" coords="5,31,164,56"/>
+<area shape="rect" id="Node000002" href="$class_camera.html#af08bcf9151e2dad7efb65f9033a02cb7" title="获取摄像机当前位置" alt="" coords="220,5,375,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,31,206,26,207,31,165,37"/>
+<area shape="rect" id="Node000003" href="$class_camera.html#a3101102e0b0f359a33c87d26a27bb2d9" title="渲染纹理" alt="" coords="212,55,383,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,50,199,54,198,59,164,55"/>
+</map>

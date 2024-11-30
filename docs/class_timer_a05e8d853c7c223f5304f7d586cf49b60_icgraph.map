@@ -1,0 +1,7 @@
+<map id="Timer::setOneShot" name="Timer::setOneShot">
+<area shape="rect" id="Node000001" title="设置单次触发模式" alt="" coords="217,31,360,56"/>
+<area shape="rect" id="Node000002" href="$class_animation.html#a83f0a16cef7117f187ad596de38dd9d6" title="构造函数" alt="" coords="5,5,169,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,35,169,31,170,26,204,30"/>
+<area shape="rect" id="Node000003" href="$class_camera.html#a7f1455125cf3744953f9a94a9777d376" title="构造函数" alt="" coords="21,55,153,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,56,154,62,153,57,204,51"/>
+</map>

@@ -136,6 +136,9 @@ Public 成员函数</h2></td></tr>
 <tr class="memitem:ab480a7b39937678fa0e759e37f645f66" id="r_ab480a7b39937678fa0e759e37f645f66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#ab480a7b39937678fa0e759e37f645f66">onUpdate</a> (float delta)</td></tr>
 <tr class="memdesc:ab480a7b39937678fa0e759e37f645f66"><td class="mdescLeft">&#160;</td><td class="mdescRight">更新定时器 每帧调用此函数以更新定时器的计时时间。如果达到等待时间且满足触发条件 则调用设置的回调函数  <br /></td></tr>
 <tr class="separator:ab480a7b39937678fa0e759e37f645f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05e8d853c7c223f5304f7d586cf49b60" id="r_a05e8d853c7c223f5304f7d586cf49b60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_timer.html#a05e8d853c7c223f5304f7d586cf49b60">setOneShot</a> (bool one_shot_enable)</td></tr>
+<tr class="memdesc:a05e8d853c7c223f5304f7d586cf49b60"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置单次触发模式  <br /></td></tr>
+<tr class="separator:a05e8d853c7c223f5304f7d586cf49b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
 Private 类型</h2></td></tr>
@@ -284,6 +287,18 @@ Private 属性</h2></td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_timer_ab480a7b39937678fa0e759e37f645f66_icgraph.png" border="0" usemap="#aclass_timer_ab480a7b39937678fa0e759e37f645f66_icgraph" alt=""/></div>
+<map name="aclass_timer_ab480a7b39937678fa0e759e37f645f66_icgraph" id="aclass_timer_ab480a7b39937678fa0e759e37f645f66_icgraph">
+<area shape="rect" title="更新定时器 每帧调用此函数以更新定时器的计时时间。如果达到等待时间且满足触发条件 则调用设置的回调函数" alt="" coords="213,31,344,56"/>
+<area shape="rect" href="class_animation.html#a8fe31dfa29e595fd6a5c34fbc0251cc5" title="更新动画状态" alt="" coords="5,5,165,31"/>
+<area shape="poly" title=" " alt="" coords="199,36,165,31,166,26,200,30"/>
+<area shape="rect" href="class_camera.html#addb54267fad7b33ce0e31f73c4887e2f" title="更新摄像机位置" alt="" coords="13,55,157,80"/>
+<area shape="poly" title=" " alt="" coords="200,56,158,61,157,56,200,50"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -339,6 +354,18 @@ Private 属性</h2></td></tr>
 </div><div class="memdoc">
 
 <p>重置定时器 将累计的计时时间重置为零，并取消触发状态 </p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_timer_aa3f7871196bb56202af2bc982bfbfff6_icgraph.png" border="0" usemap="#aclass_timer_aa3f7871196bb56202af2bc982bfbfff6_icgraph" alt=""/></div>
+<map name="aclass_timer_aa3f7871196bb56202af2bc982bfbfff6_icgraph" id="aclass_timer_aa3f7871196bb56202af2bc982bfbfff6_icgraph">
+<area shape="rect" title="重置定时器 将累计的计时时间重置为零，并取消触发状态" alt="" coords="184,31,295,56"/>
+<area shape="rect" href="class_animation.html#a903eb4b61b8c7bc72bbedbdba4cbb501" title="重置动画的当前帧索引和定时器状态" alt="" coords="5,5,136,31"/>
+<area shape="poly" title=" " alt="" coords="170,36,136,30,137,25,171,30"/>
+<area shape="rect" href="class_camera.html#a22f798fb8405021a0f7a678a2187384a" title="启动摄像机抖动效果" alt="" coords="11,55,130,80"/>
+<area shape="poly" title=" " alt="" coords="171,56,131,62,130,56,170,51"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -367,6 +394,52 @@ Private 属性</h2></td></tr>
 
 <p>恢复定时器 </p>
 <p>恢复暂停的定时器，使其重新开始更新计时时间 </p>
+
+</div>
+</div>
+<a id="a05e8d853c7c223f5304f7d586cf49b60" name="a05e8d853c7c223f5304f7d586cf49b60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05e8d853c7c223f5304f7d586cf49b60">&#9670;&#160;</a></span>setOneShot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Timer::setOneShot </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>one_shot_enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>设置单次触发模式 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">one_shot_enable</td><td>是否开启 </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_timer_a05e8d853c7c223f5304f7d586cf49b60_icgraph.png" border="0" usemap="#aclass_timer_a05e8d853c7c223f5304f7d586cf49b60_icgraph" alt=""/></div>
+<map name="aclass_timer_a05e8d853c7c223f5304f7d586cf49b60_icgraph" id="aclass_timer_a05e8d853c7c223f5304f7d586cf49b60_icgraph">
+<area shape="rect" title="设置单次触发模式" alt="" coords="217,31,360,56"/>
+<area shape="rect" href="class_animation.html#a83f0a16cef7117f187ad596de38dd9d6" title="构造函数" alt="" coords="5,5,169,31"/>
+<area shape="poly" title=" " alt="" coords="203,35,169,31,170,26,204,30"/>
+<area shape="rect" href="class_camera.html#a7f1455125cf3744953f9a94a9777d376" title="构造函数" alt="" coords="21,55,153,80"/>
+<area shape="poly" title=" " alt="" coords="204,56,154,62,153,57,204,51"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -401,6 +474,18 @@ Private 属性</h2></td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_timer_aae550d9efc306e761f5c1446d1154a43_icgraph.png" border="0" usemap="#aclass_timer_aae550d9efc306e761f5c1446d1154a43_icgraph" alt=""/></div>
+<map name="aclass_timer_aae550d9efc306e761f5c1446d1154a43_icgraph" id="aclass_timer_aae550d9efc306e761f5c1446d1154a43_icgraph">
+<area shape="rect" title="设置超时触发时的回调函数" alt="" coords="217,31,377,56"/>
+<area shape="rect" href="class_animation.html#a83f0a16cef7117f187ad596de38dd9d6" title="构造函数" alt="" coords="5,5,169,31"/>
+<area shape="poly" title=" " alt="" coords="203,35,169,31,170,25,204,29"/>
+<area shape="rect" href="class_camera.html#a7f1455125cf3744953f9a94a9777d376" title="构造函数" alt="" coords="21,55,153,80"/>
+<area shape="poly" title=" " alt="" coords="204,57,154,62,154,57,203,51"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -435,6 +520,18 @@ Private 属性</h2></td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_timer_a364bc8b2d1a26f2191162848d33b0629_icgraph.png" border="0" usemap="#aclass_timer_a364bc8b2d1a26f2191162848d33b0629_icgraph" alt=""/></div>
+<map name="aclass_timer_a364bc8b2d1a26f2191162848d33b0629_icgraph" id="aclass_timer_a364bc8b2d1a26f2191162848d33b0629_icgraph">
+<area shape="rect" title="设置定时器等待时间" alt="" coords="220,31,371,56"/>
+<area shape="rect" href="class_animation.html#a3ccf4d6fc7920710a79aff9639d67828" title="设置每帧的间隔时间" alt="" coords="5,5,172,31"/>
+<area shape="poly" title=" " alt="" coords="206,35,172,31,172,26,207,30"/>
+<area shape="rect" href="class_camera.html#a22f798fb8405021a0f7a678a2187384a" title="启动摄像机抖动效果" alt="" coords="29,55,148,80"/>
+<area shape="poly" title=" " alt="" coords="207,56,149,63,148,58,206,51"/>
+</map>
+</div>
 
 </div>
 </div>

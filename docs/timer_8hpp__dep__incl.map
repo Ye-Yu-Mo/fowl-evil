@@ -1,0 +1,8 @@
+<map id="include/timer.hpp" name="include/timer.hpp">
+<area shape="rect" id="Node000001" title="定时器" alt="" coords="21,5,156,31"/>
+<area shape="rect" id="Node000002" href="$animation_8hpp.html" title="帧动画 使用Timer定时器 控制每隔一段时间 切换显示的纹理到下一个逻辑帧 逻辑帧可以是 下一张图片对象 或者 同一张纹理对象的不同裁剪区域" alt="" coords="5,152,172,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,44,61,79,60,99,65,118,82,150,77,153,60,120,54,99,55,78,71,41"/>
+<area shape="rect" id="Node000003" href="$camera_8hpp.html" title="摄像机类 如果摄像机本身就在抖动的状态中 只需要随机摄像机本身的位置 就能产生抖动的效果" alt="" coords="71,79,221,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="109,40,139,77,135,80,104,43"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="130,116,100,154,96,150,126,113"/>
+</map>

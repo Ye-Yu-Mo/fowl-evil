@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x_0',['x',['../class_vector2.html#a046bb8d17a876acc49415128dc0502f2',1,'Vector2']]]
+  ['value_0',['value',['../structglz_1_1meta_3_01my__struct_01_4.html#ac2bd60ac3a80e5680acf8f12e71a51f0',1,'glz::meta&lt; my_struct &gt;']]]
 ];

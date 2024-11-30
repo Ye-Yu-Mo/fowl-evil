@@ -1,11 +1,13 @@
-<map id="/home/leaf/fowl&#45;evil/third/logs/format.hpp" name="/home/leaf/fowl&#45;evil/third/logs/format.hpp">
-<area shape="rect" id="Node000001" title="日志格式化器类的定义" alt="" coords="5,5,168,45"/>
-<area shape="rect" id="Node000002" href="$third_2logs_2logger_8hpp.html" title="日志器模块的实现" alt="" coords="7,93,166,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,59,89,93,84,93,84,59"/>
-<area shape="rect" id="Node000003" href="$_xulog_8h.html" title="全局日志接口和宏定义" alt="" coords="10,181,163,221"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="89,147,89,181,84,181,84,147"/>
-<area shape="rect" id="Node000004" href="$include_2logger_8hpp.html" title="异步日志器初始化" alt="" coords="10,269,163,309"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="89,235,89,269,84,269,84,235"/>
-<area shape="rect" id="Node000005" href="$atlas_8hpp.html" title="图集类 绘制图片素材时 从 图片 &#45;&gt; 内存结构 SDL_Surface 借助硬件加速进行绘图 SDL_Surface &#45;&gt; 显存结构 &#45;&gt; 借助 Renderer 进行渲染显式到窗口" alt="" coords="10,357,163,397"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="89,323,89,357,84,357,84,323"/>
+<map id="third/logs/format.hpp" name="third/logs/format.hpp">
+<area shape="rect" id="Node000001" title="日志格式化器类的定义" alt="" coords="9,5,168,31"/>
+<area shape="rect" id="Node000002" href="$third_2logs_2logger_8hpp.html" title="日志器模块的实现" alt="" coords="11,79,166,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,44,91,79,86,79,86,44"/>
+<area shape="rect" id="Node000003" href="$_xulog_8h.html" title="全局日志接口和宏定义" alt="" coords="21,152,157,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,118,91,152,86,152,86,118"/>
+<area shape="rect" id="Node000004" href="$include_2logger_8hpp.html" title="异步日志器初始化" alt="" coords="18,225,159,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="91,191,91,225,86,225,86,191"/>
+<area shape="rect" id="Node000005" href="$atlas_8hpp.html" title="图集类 绘制图片素材时 从 图片 &#45;&gt; 内存结构 SDL_Surface 借助硬件加速进行绘图 SDL_Surface &#45;&gt; 显存结构 &#45;&gt; 借助 Renderer 进行渲染显式到窗口" alt="" coords="22,299,155,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="91,264,91,299,86,299,86,264"/>
+<area shape="rect" id="Node000006" href="$animation_8hpp.html" title="帧动画 使用Timer定时器 控制每隔一段时间 切换显示的纹理到下一个逻辑帧 逻辑帧可以是 下一张图片对象 或者 同一张纹理对象的不同裁剪区域" alt="" coords="5,372,172,397"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="91,338,91,372,86,372,86,338"/>
 </map>

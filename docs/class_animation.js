@@ -1,0 +1,26 @@
+var class_animation =
+[
+    [ "Frame", "struct_animation_1_1_frame.html", "struct_animation_1_1_frame" ],
+    [ "onFinished", "class_animation.html#a61f6f7d10fdb741958a757c86fab71b8", null ],
+    [ "Animation", "class_animation.html#a83f0a16cef7117f187ad596de38dd9d6", null ],
+    [ "~Animation", "class_animation.html#aa93a530b4235cd1098758c1d1985a3eb", null ],
+    [ "addFrame", "class_animation.html#a44fd91feb7ba3189b4392267a3c0f7d2", null ],
+    [ "addFrame", "class_animation.html#a32ad5127f5ec81e09afb89ac69b28f60", null ],
+    [ "onRender", "class_animation.html#aba3b39d9cc4949a1a9a43e3999e485c3", null ],
+    [ "onUpdate", "class_animation.html#a8fe31dfa29e595fd6a5c34fbc0251cc5", null ],
+    [ "reset", "class_animation.html#a903eb4b61b8c7bc72bbedbdba4cbb501", null ],
+    [ "setCenter", "class_animation.html#a0ee171198d5758f3c6a039978e276552", null ],
+    [ "setInterval", "class_animation.html#a3ccf4d6fc7920710a79aff9639d67828", null ],
+    [ "setLoop", "class_animation.html#ad58a175c3bbe12d23a22d581ecb3d3be", null ],
+    [ "setOnFinished", "class_animation.html#a3f24b9f2b5295e64208fc4c725fa1224", null ],
+    [ "setPosition", "class_animation.html#ab46d5ee95857af8dd5405e75bd2fb5cc", null ],
+    [ "setRotation", "class_animation.html#a60b8315027af27cb490d66701032d6dd", null ],
+    [ "_angle", "class_animation.html#a78f2f410c40ba4273e80450dcef0cf6c", null ],
+    [ "_center", "class_animation.html#a7c7a40b9cd2495c9ae4a1899b3852e45", null ],
+    [ "_frame_list", "class_animation.html#ad2c75e7a9c28147589a96e97db3eb8c1", null ],
+    [ "_idx_frame", "class_animation.html#acb71dda94e0cd71d1772011c7cd99636", null ],
+    [ "_is_loop", "class_animation.html#a602532f175d3f4572b251cbbd4cd2e4e", null ],
+    [ "_on_finished", "class_animation.html#a9c0196d6d02e48499f4cf72a0b3e02f6", null ],
+    [ "_position", "class_animation.html#a1150cdfa612fe26689c3e59f70e72442", null ],
+    [ "_timer", "class_animation.html#a69df0f23be6ba602c0639babeec1fbcd", null ]
+];

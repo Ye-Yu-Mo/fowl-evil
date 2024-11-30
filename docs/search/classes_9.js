@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['rollsinkbysize_0',['RollSinkBySize',['../class_xulog_1_1_roll_sink_by_size.html',1,'Xulog']]]
+  ['otherformatitem_0',['OtherFormatItem',['../class_xulog_1_1_other_format_item.html',1,'Xulog']]]
 ];

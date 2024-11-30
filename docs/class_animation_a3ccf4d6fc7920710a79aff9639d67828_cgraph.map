@@ -1,0 +1,5 @@
+<map id="Animation::setInterval" name="Animation::setInterval">
+<area shape="rect" id="Node000001" title="设置每帧的间隔时间" alt="" coords="5,5,172,31"/>
+<area shape="rect" id="Node000002" href="$class_timer.html#a364bc8b2d1a26f2191162848d33b0629" title="设置定时器等待时间" alt="" coords="220,5,371,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,15,206,15,206,21,172,21"/>
+</map>

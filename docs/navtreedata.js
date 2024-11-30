@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "fowl-evil", "index.html", [
-    [ "fowl-evil", "md__2home_2leaf_2fowl-evil_2_r_e_a_d_m_e.html", null ],
+    [ "fowl-evil", "md__r_e_a_d_m_e.html", null ],
     [ "弃用列表", "deprecated.html", null ],
     [ "命名空间", "namespaces.html", [
       [ "命名空间列表", "namespaces.html", "namespaces_dup" ],
@@ -63,8 +63,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_c_make_c_x_x_compiler_id_8cpp.html",
-"class_xulog_1_1_logger.html#a297fd14f436a4343b32c941b5ae7a7b5",
-"include_2logger_8hpp.html#a550823b33028664fed2d6d6eccabf026"
+"class_xulog_1_1_log_level.html",
+"dir_d44c64559bbebec7f509842c48db8b23.html"
 ];
 
 var SYNCONMSG = '点击 关闭 面板同步';

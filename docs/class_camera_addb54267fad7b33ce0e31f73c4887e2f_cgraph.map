@@ -1,0 +1,5 @@
+<map id="Camera::onUpdate" name="Camera::onUpdate">
+<area shape="rect" id="Node000001" title="更新摄像机位置" alt="" coords="5,5,149,31"/>
+<area shape="rect" id="Node000002" href="$class_timer.html#ab480a7b39937678fa0e759e37f645f66" title="更新定时器 每帧调用此函数以更新定时器的计时时间。如果达到等待时间且满足触发条件 则调用设置的回调函数" alt="" coords="197,5,328,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,15,184,15,184,21,150,21"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Animation::reset" name="Animation::reset">
+<area shape="rect" id="Node000001" title="重置动画的当前帧索引和定时器状态" alt="" coords="5,5,136,31"/>
+<area shape="rect" id="Node000002" href="$class_timer.html#aa3f7871196bb56202af2bc982bfbfff6" title="重置定时器 将累计的计时时间重置为零，并取消触发状态" alt="" coords="184,5,295,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,15,170,15,170,21,136,21"/>
+</map>

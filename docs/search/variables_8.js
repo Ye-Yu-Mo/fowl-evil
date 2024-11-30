@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['value_0',['value',['../structglz_1_1meta_3_01my__struct_01_4.html#ac2bd60ac3a80e5680acf8f12e71a51f0',1,'glz::meta&lt; my_struct &gt;']]]
+  ['renderer_0',['renderer',['../class_camera.html#adf1b0e515c5c24d1a5da25e0d36698ac',1,'Camera']]]
 ];

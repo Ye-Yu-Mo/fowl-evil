@@ -1,0 +1,7 @@
+<map id="Animation::Animation" name="Animation::Animation">
+<area shape="rect" id="Node000001" title="构造函数" alt="" coords="5,31,169,56"/>
+<area shape="rect" id="Node000002" href="$class_timer.html#a05e8d853c7c223f5304f7d586cf49b60" title="设置单次触发模式" alt="" coords="226,5,369,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,31,212,26,213,31,170,36"/>
+<area shape="rect" id="Node000003" href="$class_timer.html#aae550d9efc306e761f5c1446d1154a43" title="设置超时触发时的回调函数" alt="" coords="217,55,377,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,50,204,54,204,59,169,55"/>
+</map>

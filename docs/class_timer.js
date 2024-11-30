@@ -7,6 +7,7 @@ var class_timer =
     [ "pause", "class_timer.html#a0289effad7b573c508bc27e405900a23", null ],
     [ "restart", "class_timer.html#aa3f7871196bb56202af2bc982bfbfff6", null ],
     [ "resume", "class_timer.html#a4ac55a73bb3431db9d4d2fd70ae9a2e8", null ],
+    [ "setOneShot", "class_timer.html#a05e8d853c7c223f5304f7d586cf49b60", null ],
     [ "setOnTimeout", "class_timer.html#aae550d9efc306e761f5c1446d1154a43", null ],
     [ "setWaitTime", "class_timer.html#a364bc8b2d1a26f2191162848d33b0629", null ],
     [ "_on_timeout", "class_timer.html#a80b23180bb8e9652c5b83fa33379e2d9", null ],

@@ -1,0 +1,598 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>fowl-evil: Camera类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">fowl-evil<span id="projectnumber">&#160;dev 0.1</span>
+   </div>
+   <div id="projectbrief">一个基于C++ SDL的二维平面射击游戏</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_camera.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pri-attribs">Private 属性</a> &#124;
+<a href="class_camera-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">Camera类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>处理摄像机位置和抖动效果的类  
+ <a href="class_camera.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="camera_8hpp_source.html">camera.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Camera 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_camera__coll__graph.png" border="0" usemap="#a_camera_coll__map" alt="Collaboration graph"/></div>
+<map name="a_camera_coll__map" id="a_camera_coll__map">
+<area shape="rect" title="处理摄像机位置和抖动效果的类" alt="" coords="51,93,124,119"/>
+<area shape="rect" href="class_vector2.html" title="二维向量类" alt="" coords="5,5,76,31"/>
+<area shape="poly" title=" " alt="" coords="40,44,44,68,54,81,67,91,64,95,50,85,40,70,35,45"/>
+<area shape="rect" href="class_timer.html" title="定时器类。" alt="" coords="105,5,165,31"/>
+<area shape="poly" title=" " alt="" coords="125,44,96,94,92,91,120,41"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a7f1455125cf3744953f9a94a9777d376" id="r_a7f1455125cf3744953f9a94a9777d376"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a7f1455125cf3744953f9a94a9777d376">Camera</a> (SDL_Renderer *<a class="el" href="class_camera.html#adf1b0e515c5c24d1a5da25e0d36698ac">renderer</a>)</td></tr>
+<tr class="memdesc:a7f1455125cf3744953f9a94a9777d376"><td class="mdescLeft">&#160;</td><td class="mdescRight">构造函数  <br /></td></tr>
+<tr class="separator:a7f1455125cf3744953f9a94a9777d376"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af08bcf9151e2dad7efb65f9033a02cb7" id="r_af08bcf9151e2dad7efb65f9033a02cb7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_vector2.html">Vector2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#af08bcf9151e2dad7efb65f9033a02cb7">getPosition</a> () const</td></tr>
+<tr class="memdesc:af08bcf9151e2dad7efb65f9033a02cb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取摄像机当前位置  <br /></td></tr>
+<tr class="separator:af08bcf9151e2dad7efb65f9033a02cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02be8aa0dbef77e02dddc715a726fb67" id="r_a02be8aa0dbef77e02dddc715a726fb67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a02be8aa0dbef77e02dddc715a726fb67">reset</a> ()</td></tr>
+<tr class="memdesc:a02be8aa0dbef77e02dddc715a726fb67"><td class="mdescLeft">&#160;</td><td class="mdescRight">重置摄像机位置  <br /></td></tr>
+<tr class="separator:a02be8aa0dbef77e02dddc715a726fb67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addb54267fad7b33ce0e31f73c4887e2f" id="r_addb54267fad7b33ce0e31f73c4887e2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#addb54267fad7b33ce0e31f73c4887e2f">onUpdate</a> (float delta)</td></tr>
+<tr class="memdesc:addb54267fad7b33ce0e31f73c4887e2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">更新摄像机位置  <br /></td></tr>
+<tr class="separator:addb54267fad7b33ce0e31f73c4887e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22f798fb8405021a0f7a678a2187384a" id="r_a22f798fb8405021a0f7a678a2187384a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a22f798fb8405021a0f7a678a2187384a">shake</a> (float strength, float duration)</td></tr>
+<tr class="memdesc:a22f798fb8405021a0f7a678a2187384a"><td class="mdescLeft">&#160;</td><td class="mdescRight">启动摄像机抖动效果  <br /></td></tr>
+<tr class="separator:a22f798fb8405021a0f7a678a2187384a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3101102e0b0f359a33c87d26a27bb2d9" id="r_a3101102e0b0f359a33c87d26a27bb2d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a3101102e0b0f359a33c87d26a27bb2d9">renderTexture</a> (SDL_Texture *texture, const SDL_Rect *rect_src, const SDL_FRect *rect_dst, double angle, const SDL_FPoint *center) const</td></tr>
+<tr class="memdesc:a3101102e0b0f359a33c87d26a27bb2d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">渲染纹理  <br /></td></tr>
+<tr class="separator:a3101102e0b0f359a33c87d26a27bb2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private 属性</h2></td></tr>
+<tr class="memitem:ae374d6f60654770998fbfa240359eec5" id="r_ae374d6f60654770998fbfa240359eec5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vector2.html">Vector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#ae374d6f60654770998fbfa240359eec5">_position</a></td></tr>
+<tr class="memdesc:ae374d6f60654770998fbfa240359eec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">摄像机当前位置  <br /></td></tr>
+<tr class="separator:ae374d6f60654770998fbfa240359eec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17b4a303e993796acba7f2ab1c175b1a" id="r_a17b4a303e993796acba7f2ab1c175b1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_timer.html">Timer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a17b4a303e993796acba7f2ab1c175b1a">_timer_shake</a></td></tr>
+<tr class="memdesc:a17b4a303e993796acba7f2ab1c175b1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">抖动定时器  <br /></td></tr>
+<tr class="separator:a17b4a303e993796acba7f2ab1c175b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eff4904c9819c78b6b87a3d2cabbffa" id="r_a2eff4904c9819c78b6b87a3d2cabbffa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a2eff4904c9819c78b6b87a3d2cabbffa">_is_shaking</a> = false</td></tr>
+<tr class="memdesc:a2eff4904c9819c78b6b87a3d2cabbffa"><td class="mdescLeft">&#160;</td><td class="mdescRight">标记是否处于抖动状态  <br /></td></tr>
+<tr class="separator:a2eff4904c9819c78b6b87a3d2cabbffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dee1ec7644e7953d1f7a283938f1bf5" id="r_a5dee1ec7644e7953d1f7a283938f1bf5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#a5dee1ec7644e7953d1f7a283938f1bf5">_shaking_strength</a> = 0</td></tr>
+<tr class="memdesc:a5dee1ec7644e7953d1f7a283938f1bf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">抖动强度  <br /></td></tr>
+<tr class="separator:a5dee1ec7644e7953d1f7a283938f1bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf1b0e515c5c24d1a5da25e0d36698ac" id="r_adf1b0e515c5c24d1a5da25e0d36698ac"><td class="memItemLeft" align="right" valign="top">SDL_Renderer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_camera.html#adf1b0e515c5c24d1a5da25e0d36698ac">renderer</a> = nullptr</td></tr>
+<tr class="memdesc:adf1b0e515c5c24d1a5da25e0d36698ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">渲染器对象指针  <br /></td></tr>
+<tr class="separator:adf1b0e515c5c24d1a5da25e0d36698ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>处理摄像机位置和抖动效果的类 </p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a7f1455125cf3744953f9a94a9777d376" name="a7f1455125cf3744953f9a94a9777d376"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f1455125cf3744953f9a94a9777d376">&#9670;&#160;</a></span>Camera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera::Camera </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Renderer *&#160;</td>
+          <td class="paramname"><em>renderer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>构造函数 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">renderer</td><td>渲染器对象 </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_camera_a7f1455125cf3744953f9a94a9777d376_cgraph.png" border="0" usemap="#aclass_camera_a7f1455125cf3744953f9a94a9777d376_cgraph" alt=""/></div>
+<map name="aclass_camera_a7f1455125cf3744953f9a94a9777d376_cgraph" id="aclass_camera_a7f1455125cf3744953f9a94a9777d376_cgraph">
+<area shape="rect" title="构造函数" alt="" coords="5,55,137,80"/>
+<area shape="rect" href="class_camera.html#a02be8aa0dbef77e02dddc715a726fb67" title="重置摄像机位置" alt="" coords="208,5,323,31"/>
+<area shape="poly" title=" " alt="" coords="121,52,200,32,202,37,123,57"/>
+<area shape="rect" href="class_timer.html#a05e8d853c7c223f5304f7d586cf49b60" title="设置单次触发模式" alt="" coords="194,55,337,80"/>
+<area shape="poly" title=" " alt="" coords="137,65,180,65,180,70,137,70"/>
+<area shape="rect" href="class_timer.html#aae550d9efc306e761f5c1446d1154a43" title="设置超时触发时的回调函数" alt="" coords="185,104,345,129"/>
+<area shape="poly" title=" " alt="" coords="123,77,202,98,200,103,121,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="af08bcf9151e2dad7efb65f9033a02cb7" name="af08bcf9151e2dad7efb65f9033a02cb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af08bcf9151e2dad7efb65f9033a02cb7">&#9670;&#160;</a></span>getPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_vector2.html">Vector2</a> &amp; Camera::getPosition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>获取摄像机当前位置 </p>
+<dl class="section return"><dt>返回</dt><dd>摄像机当前位置 </dd></dl>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_camera_af08bcf9151e2dad7efb65f9033a02cb7_icgraph.png" border="0" usemap="#aclass_camera_af08bcf9151e2dad7efb65f9033a02cb7_icgraph" alt=""/></div>
+<map name="aclass_camera_af08bcf9151e2dad7efb65f9033a02cb7_icgraph" id="aclass_camera_af08bcf9151e2dad7efb65f9033a02cb7_icgraph">
+<area shape="rect" title="获取摄像机当前位置" alt="" coords="212,5,367,31"/>
+<area shape="rect" href="class_animation.html#aba3b39d9cc4949a1a9a43e3999e485c3" title="渲染动画 在给定的摄像机视角下渲染当前帧。" alt="" coords="5,5,164,31"/>
+<area shape="poly" title=" " alt="" coords="198,21,164,21,164,15,198,15"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="addb54267fad7b33ce0e31f73c4887e2f" name="addb54267fad7b33ce0e31f73c4887e2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addb54267fad7b33ce0e31f73c4887e2f">&#9670;&#160;</a></span>onUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Camera::onUpdate </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>delta</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>更新摄像机位置 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">delta</td><td>通过此参数传入时间增量，用于更新时间和动画 摄像机的活动范围是原始位置的[-50, 50] </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_camera_addb54267fad7b33ce0e31f73c4887e2f_cgraph.png" border="0" usemap="#aclass_camera_addb54267fad7b33ce0e31f73c4887e2f_cgraph" alt=""/></div>
+<map name="aclass_camera_addb54267fad7b33ce0e31f73c4887e2f_cgraph" id="aclass_camera_addb54267fad7b33ce0e31f73c4887e2f_cgraph">
+<area shape="rect" title="更新摄像机位置" alt="" coords="5,5,149,31"/>
+<area shape="rect" href="class_timer.html#ab480a7b39937678fa0e759e37f645f66" title="更新定时器 每帧调用此函数以更新定时器的计时时间。如果达到等待时间且满足触发条件 则调用设置的回调函数" alt="" coords="197,5,328,31"/>
+<area shape="poly" title=" " alt="" coords="150,15,184,15,184,21,150,21"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3101102e0b0f359a33c87d26a27bb2d9" name="a3101102e0b0f359a33c87d26a27bb2d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3101102e0b0f359a33c87d26a27bb2d9">&#9670;&#160;</a></span>renderTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Camera::renderTexture </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Texture *&#160;</td>
+          <td class="paramname"><em>texture</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const SDL_Rect *&#160;</td>
+          <td class="paramname"><em>rect_src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const SDL_FRect *&#160;</td>
+          <td class="paramname"><em>rect_dst</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const SDL_FPoint *&#160;</td>
+          <td class="paramname"><em>center</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>渲染纹理 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">texture</td><td>纹理对象 </td></tr>
+    <tr><td class="paramname">rect_src</td><td>源纹理 </td></tr>
+    <tr><td class="paramname">rect_dst</td><td>目标纹理 </td></tr>
+    <tr><td class="paramname">angle</td><td>旋转角度 </td></tr>
+    <tr><td class="paramname">center</td><td>旋转中心 </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_camera_a3101102e0b0f359a33c87d26a27bb2d9_icgraph.png" border="0" usemap="#aclass_camera_a3101102e0b0f359a33c87d26a27bb2d9_icgraph" alt=""/></div>
+<map name="aclass_camera_a3101102e0b0f359a33c87d26a27bb2d9_icgraph" id="aclass_camera_a3101102e0b0f359a33c87d26a27bb2d9_icgraph">
+<area shape="rect" title="渲染纹理" alt="" coords="212,5,383,31"/>
+<area shape="rect" href="class_animation.html#aba3b39d9cc4949a1a9a43e3999e485c3" title="渲染动画 在给定的摄像机视角下渲染当前帧。" alt="" coords="5,5,164,31"/>
+<area shape="poly" title=" " alt="" coords="198,21,164,21,164,15,198,15"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a02be8aa0dbef77e02dddc715a726fb67" name="a02be8aa0dbef77e02dddc715a726fb67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02be8aa0dbef77e02dddc715a726fb67">&#9670;&#160;</a></span>reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Camera::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>重置摄像机位置 </p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_camera_a02be8aa0dbef77e02dddc715a726fb67_icgraph.png" border="0" usemap="#aclass_camera_a02be8aa0dbef77e02dddc715a726fb67_icgraph" alt=""/></div>
+<map name="aclass_camera_a02be8aa0dbef77e02dddc715a726fb67_icgraph" id="aclass_camera_a02be8aa0dbef77e02dddc715a726fb67_icgraph">
+<area shape="rect" title="重置摄像机位置" alt="" coords="185,5,300,31"/>
+<area shape="rect" href="class_camera.html#a7f1455125cf3744953f9a94a9777d376" title="构造函数" alt="" coords="5,5,137,31"/>
+<area shape="poly" title=" " alt="" coords="172,21,137,21,137,15,172,15"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a22f798fb8405021a0f7a678a2187384a" name="a22f798fb8405021a0f7a678a2187384a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22f798fb8405021a0f7a678a2187384a">&#9670;&#160;</a></span>shake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Camera::shake </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>strength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>duration</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>启动摄像机抖动效果 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">strength</td><td>抖动强度，控制抖动的幅度 </td></tr>
+    <tr><td class="paramname">duration</td><td>抖动持续时间 </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_camera_a22f798fb8405021a0f7a678a2187384a_cgraph.png" border="0" usemap="#aclass_camera_a22f798fb8405021a0f7a678a2187384a_cgraph" alt=""/></div>
+<map name="aclass_camera_a22f798fb8405021a0f7a678a2187384a_cgraph" id="aclass_camera_a22f798fb8405021a0f7a678a2187384a_cgraph">
+<area shape="rect" title="启动摄像机抖动效果" alt="" coords="5,31,124,56"/>
+<area shape="rect" href="class_timer.html#aa3f7871196bb56202af2bc982bfbfff6" title="重置定时器 将累计的计时时间重置为零，并取消触发状态" alt="" coords="192,5,303,31"/>
+<area shape="poly" title=" " alt="" coords="124,32,178,25,179,30,125,38"/>
+<area shape="rect" href="class_timer.html#a364bc8b2d1a26f2191162848d33b0629" title="设置定时器等待时间" alt="" coords="172,55,323,80"/>
+<area shape="poly" title=" " alt="" coords="125,48,158,53,158,58,124,54"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a2eff4904c9819c78b6b87a3d2cabbffa" name="a2eff4904c9819c78b6b87a3d2cabbffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eff4904c9819c78b6b87a3d2cabbffa">&#9670;&#160;</a></span>_is_shaking</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Camera::_is_shaking = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>标记是否处于抖动状态 </p>
+
+</div>
+</div>
+<a id="ae374d6f60654770998fbfa240359eec5" name="ae374d6f60654770998fbfa240359eec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae374d6f60654770998fbfa240359eec5">&#9670;&#160;</a></span>_position</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vector2.html">Vector2</a> Camera::_position</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>摄像机当前位置 </p>
+
+</div>
+</div>
+<a id="a5dee1ec7644e7953d1f7a283938f1bf5" name="a5dee1ec7644e7953d1f7a283938f1bf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dee1ec7644e7953d1f7a283938f1bf5">&#9670;&#160;</a></span>_shaking_strength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Camera::_shaking_strength = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>抖动强度 </p>
+
+</div>
+</div>
+<a id="a17b4a303e993796acba7f2ab1c175b1a" name="a17b4a303e993796acba7f2ab1c175b1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17b4a303e993796acba7f2ab1c175b1a">&#9670;&#160;</a></span>_timer_shake</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_timer.html">Timer</a> Camera::_timer_shake</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>抖动定时器 </p>
+
+</div>
+</div>
+<a id="adf1b0e515c5c24d1a5da25e0d36698ac" name="adf1b0e515c5c24d1a5da25e0d36698ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf1b0e515c5c24d1a5da25e0d36698ac">&#9670;&#160;</a></span>renderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Renderer* Camera::renderer = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>渲染器对象指针 </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_camera.html">Camera</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -37,7 +37,9 @@ var annotated_dup =
       [ "ThreadFormatItem", "class_xulog_1_1_thread_format_item.html", "class_xulog_1_1_thread_format_item" ],
       [ "TimeFormatItem", "class_xulog_1_1_time_format_item.html", "class_xulog_1_1_time_format_item" ]
     ] ],
+    [ "Animation", "class_animation.html", "class_animation" ],
     [ "Atlas", "class_atlas.html", "class_atlas" ],
+    [ "Camera", "class_camera.html", "class_camera" ],
     [ "LogInit", "class_log_init.html", "class_log_init" ],
     [ "my_struct", "structmy__struct.html", "structmy__struct" ],
     [ "Timer", "class_timer.html", "class_timer" ],
